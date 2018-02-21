@@ -109,10 +109,10 @@
 			lineWidth: 7,
 			lineCap: 'butt',
 			barColor: '#00AED5',
-			trackColor:	"#f5f5f5",
+			trackColor:	"white",
 			size: 160,
 			animate: 1000
-		});
+		})
 	};
 
 	var skillsWayPoint = function() {
