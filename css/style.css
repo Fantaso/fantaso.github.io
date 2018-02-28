@@ -10,7 +10,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #4d4d4d;
+  color: #9DA2AB;#4d4d4d;
   background: #565554;#EDEDED;
 }
 
@@ -48,7 +48,7 @@ a {
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #00AED5;#FF9000;
+  color: #C0B7B1;#FF9000;
   outline: none;
   text-decoration: none;
 }
@@ -58,24 +58,24 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
+  color: #fff;
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
 
 ::-webkit-selection {
-  color: #fff;
+  color: #C0B7B1;
   background: #00AED5;#FF9000;
 }
 
 ::-moz-selection {
-  color: #fff;
+  color: #C0B7B1;
   background: #00AED5;#FF9000;
 }
 
 ::selection {
-  color: #fff;
+  color: #C0B7B1;
   background: #00AED5;#FF9000;
 }
 
@@ -351,7 +351,7 @@ height: auto;
   background: #00AED5;#FF9000;
 }
 #fh5co-features h2 {
-  color: #fff;
+  color: #C0B7B1;
 }
 #fh5co-features .services-padding {
   padding: 7em 0;
@@ -466,16 +466,16 @@ height: auto;
   width: 40%;
   display: inline-block;
   float: left;
-  color: #000;
+  color: #939292;
   font-weight: bold;
 }
 .info li .second-block {
   width: 60%;
   display: inline-block;
-  color: rgba(0, 0, 0, 0.5);
+  color: white;#A2C9D7;rgba(0, 0, 0, 0.5);
 }
 .info li .second-block a {
-  color: rgba(0,0,0,0.5);
+  color: white;#A2C9D7;rgba(0,0,0,0.5);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -729,12 +729,13 @@ height: auto;
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: normal;
-  color: #bfbfbf;
+  color: #939292;#bfbfbf;
 }
 
 .timeline-body > p,
 .timeline-body > ul {
   margin-bottom: 0;
+  color: #EFEFEF;
 }
 
 .timeline-body > p + p {
@@ -796,14 +797,16 @@ height: auto;
 }
 
 .progress-wrap h3 .name-left-bout {
-  color: rgba(0, 0, 0, 0.5);
+  color: white;#A2C9D7;rgba(0, 0, 0, 0.5);
   float: left;
 }
 .progress-wrap h3 .value-right-bout {
-  color: rgba(0, 0, 0, 0.5);
+  color: white;#A2C9D7;rgba(0, 0, 0, 0.5);
   float: right;
 }
-
+.soft-skills-category {
+  color: #939292;
+}
 
 .progress {
   width: 100%;
@@ -833,7 +836,13 @@ height: auto;
 .progress-bar.progress-bar-5 {
   background-color: #00AED5 !important;
 }
-
+.expertise-text{
+  color: white;
+}
+.expertise-percentage {
+  color: #D4E6EC;rgba(52,138,167,   1);
+  font-size: 120%;
+}
 .chart {
   width: 160px;
   height: 160px;
