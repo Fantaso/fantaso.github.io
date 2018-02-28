@@ -1079,6 +1079,9 @@ height: auto;
 #fh5co-consult .video, #fh5co-consult .choose {
   display: inline-block;
 }
+.choose h2 {
+  color: #00AED5;rgba(52, 138, 167, 1);
+}
 @media screen and (max-width: 768px) {
   #fh5co-consult .video, #fh5co-consult .choose {
     width: 100% !important;
