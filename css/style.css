@@ -80,13 +80,17 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #nav-bar {
   width: 100%;
-  height: 40px;
+  height: auto;
+  padding: 10px 0 15px 0;
   /*float: left*/
   background-color: rgba(0,0,0, 0.3);
   color: white;#0582ca;
   position: fixed;
   top: 0;
   z-index: 1;
+  border-bottom: 0.5px solid rgba(0,0,0,0.7);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*box-shadow: 2px 2px 100px rgba(0,0,0,5);*/
   /*display: inline-block;*/
 }
 .floating-box {
@@ -102,11 +106,11 @@ h1, h2, h3, h4, h5, h6, figure {
   /*border-bottom: 4px solid rgba(227,181,5,    1)*/
 }
 
-#nav-bar-about     {border-bottom: 4px solid rgba(227,181,5,    1);}
-#nav-bar-cv        {border-bottom: 4px solid rgba(192,87,70,    1);}
-#nav-bar-expertise {border-bottom: 4px solid rgba(52,138,167,   1);}
-#nav-bar-skills    {border-bottom: 4px solid rgba(214,248,214,  1);}
-#nav-bar-contact   {border-bottom: 4px solid rgba(127,198,164,  1);}
+#nav-bar-about     {border-bottom: 3px solid rgba(227,181,5,    1);}
+#nav-bar-cv        {border-bottom: 3px solid rgba(192,87,70,    1);}
+#nav-bar-expertise {border-bottom: 3px solid rgba(52,138,167,   1);}
+#nav-bar-skills    {border-bottom: 3px solid rgba(214,248,214,  1);}
+#nav-bar-contact   {border-bottom: 3px solid rgba(127,198,164,  1);}
 
 
 
@@ -116,12 +120,24 @@ h1, h2, h3, h4, h5, h6, figure {
 #nav-bar-skills:hover   {color: rgba(214,248,214,  1);}
 #nav-bar-contact:hover  {color: rgba(127,198,164,  1);}
 
+#logo{
+  position: absolute;
+  top: 1%;
+  left: 1%;
+}
+#logo img{
+width: 50px;
+height: 50px;
+}
 
 .padding-top-nav{
-  padding-top: 2px;
+  padding-top: 0px;
 }
 .center-div{
   text-align: center;
+}
+.left-div{
+  text-align: left;
 }
 
 #fh5co-header,
