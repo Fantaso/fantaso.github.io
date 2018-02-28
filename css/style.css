@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .nav-bar-text:hover{
   font-size: 120%;
-  color: white;
+  /*text-shadow: -1px 0 lightgray, 0 1px lightgray, 1px 0 lightgray, 0 -1px lightgray;*/
 }
 
 #nav-bar-about     {border-bottom: 3px solid rgba(227,181,5,    1);}
@@ -124,11 +124,11 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 
-#nav-bar-about:hover    {color: rgba(227,181,5,    1);}
-#nav-bar-cv:hover       {color: rgba(192,87,70,    1);}
-#nav-bar-expertise:hover{color: rgba(52,138,167,   1);}
-#nav-bar-skills:hover   {color: rgba(214,248,214,  1);}
-#nav-bar-contact:hover  {color: rgba(127,198,164,  1);}
+#nav-bar-about:hover    {color: white, rgba(227,181,5,    1);background-color: rgba(255,255,255, 0); border-radius: 15%;}
+#nav-bar-cv:hover       {color: white, rgba(192,87,70,    1);background-color: rgba(255,255,255, 0); border-radius: 15%;}
+#nav-bar-expertise:hover{color: white, rgba(52,138,167,   1);background-color: rgba(255,255,255, 0); border-radius: 15%;}
+#nav-bar-skills:hover   {color: white, rgba(214,248,214,  1);background-color: rgba(255,255,255, 0); border-radius: 15%;}
+#nav-bar-contact:hover  {color: white, rgba(127,198,164,  1);background-color: rgba(255,255,255, 0); border-radius: 15%;}
 
 #logo{
   position: absolute;
