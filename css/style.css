@@ -92,7 +92,11 @@ h1, h2, h3, h4, h5, h6, figure {
   position: fixed;
   top: 0;
   z-index: 1;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*border-bottom: 1px solid rgba(0,0,0, 0.1);*/
+  border-bottom: 1px solid rgba(255,255,255, 0.1);
+  /*box-shadow: 0 4px 8px 0 rgba(255,255,255, 0.2), 0 6px 20px 0 rgba(255,255,255, 0.19);*/
+  box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+  /*box-shadow: 0 4px 8px 0 rgba(0,174,213, 0.2), 0 6px 20px 0 rgba(0,174,213, 0.19);*/
   /*box-shadow: 2px 2px 100px rgba(0,0,0,5);*/
   /*display: inline-block;*/
   -webkit-transition: background 0.9s ease-in-out;
@@ -113,15 +117,17 @@ h1, h2, h3, h4, h5, h6, figure {
   color: white;
   -webkit-transition-duration: 1.5s;
   transition-duration: 1.5s;
+  text-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
 }
 .nav-bar-text:hover{
   font-size: 120%;
+  text-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
   /*text-shadow: -1px 0 lightgray, 0 1px lightgray, 1px 0 lightgray, 0 -1px lightgray;*/
 }
 
 #nav-bar-about     {border-bottom: 3px solid rgba(227,181,5,    1);}
 #nav-bar-cv        {border-bottom: 3px solid rgba(192,87,70,    1);}
-#nav-bar-expertise {border-bottom: 3px solid rgba(52,138,167,   1);}
+#nav-bar-expertise {border-bottom: 3px solid rgba(0,174,213,   1);}
 #nav-bar-skills    {border-bottom: 3px solid rgba(214,248,214,  1);}
 #nav-bar-contact   {border-bottom: 3px solid rgba(127,198,164,  1);}
 
@@ -129,7 +135,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #nav-bar-about:hover    {color: white, rgba(227,181,5,    1);background-color: rgba(255,255,255, 0); border-radius: 15%;}
 #nav-bar-cv:hover       {color: white, rgba(192,87,70,    1);background-color: rgba(255,255,255, 0); border-radius: 15%;}
-#nav-bar-expertise:hover{color: white, rgba(52,138,167,   1);background-color: rgba(255,255,255, 0); border-radius: 15%;}
+#nav-bar-expertise:hover{color: white, rgba(0,174,213,   1);background-color: rgba(255,255,255, 0); border-radius: 15%;}
 #nav-bar-skills:hover   {color: white, rgba(214,248,214,  1);background-color: rgba(255,255,255, 0); border-radius: 15%;}
 #nav-bar-contact:hover  {color: white, rgba(127,198,164,  1);background-color: rgba(255,255,255, 0); border-radius: 15%;}
 
@@ -141,6 +147,9 @@ h1, h2, h3, h4, h5, h6, figure {
 #logo img{
 width: 50px;
 height: auto;
+/*border:1px solid transparent;*/
+border-radius: 100%;
+box-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
 }
 
 .padding-top-nav{
@@ -166,9 +175,11 @@ height: auto;
     font-size: 60%;
     -webkit-transition-duration: 1.5s;
     transition-duration: 1.5s;
+    text-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
   }
   .nav-bar-text:hover{
     font-size: 75%;
+    text-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
 
   }
   .floating-box {  
@@ -221,7 +232,7 @@ height: auto;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(52, 138, 167, 0.6);rgba(0, 174, 213, 0.8);rgba(255, 144, 0, 0.9);
+  background: rgba(0, 174, 213, 0.6);rgba(0, 174, 213, 0.8);rgba(255, 144, 0, 0.9);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -344,8 +355,14 @@ height: auto;
 #fh5co-header .display-tc .fh5co-social-icons li a i,
 .fh5co-cover .display-tc .fh5co-social-icons li a i {
   font-size: 30px;
+  /*text-shadow: -1px 0 8px lightgray, 0 1px 8px lightgray, 1px 0 8px lightgray, 0 -1px 8px lightgray;*/
+  /*text-shadow: 0px 4px 8px rgba(0,0,0, 0.2), 0 6px 20px rgba(0,0,0, 0.2);, 1px 0 8px rgba(0,0,0, 0.2), 0 -1px 8px rgba(0,0,0, 0.2);*/
+  text-shadow: 0 5px 8px rgba(0,0,0, 0.2), 0 7px 8px rgba(0,0,0, 0.19);
 }
-
+#fh5co-header .display-tc .fh5co-social-icons li a i:hover,
+.fh5co-cover .display-tc .fh5co-social-icons li a i:hover {
+  /*text-shadow: 0 4px 8px rgba(255,255,255, 0.2), 0 6px 8px rgba(255,255,255, 0.19);*/
+}
 #fh5co-features {
   background: #00AED5;#FF9000;
 }
@@ -479,6 +496,9 @@ height: auto;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+.info li .second-block a:hover {
+  color: #00AED5;
+}
 
 .fh5co-social-icons {
   margin: 0;
@@ -530,6 +550,7 @@ height: auto;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   border-radius: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
 }
 #fh5co-about .fh5co-social-icons li a i {
   font-size: 20px;
@@ -541,6 +562,7 @@ height: auto;
   border-width: 1px;
   border-radius: 2px;
   border-color: rgba(0, 174, 213, 0.8);
+  box-shadow: 0 0px 0px 0 rgba(0,0,0, 0), 0 0px 0px 0 rgba(0,0,0, 0);
 }
 
 .fh5co-heading {
@@ -611,6 +633,7 @@ height: auto;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
+  text-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
 }
 @media screen and (max-width: 768px) {
   .timeline .timeline-heading > div h3 {
@@ -678,6 +701,7 @@ height: auto;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+  text-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
 }
 @media screen and (max-width: 768px) {
   .timeline > li > .timeline-badge {
@@ -815,7 +839,7 @@ height: auto;
 }
 
 .progress-bar {
-  background-color: #2F3C4F;
+  background-color: black;#2F3C4F;
   height: 5px;
   display: block;
   box-shadow: none;
@@ -839,7 +863,7 @@ height: auto;
   color: white;
 }
 .expertise-percentage {
-  color: #D4E6EC;rgba(52,138,167,   1);
+  color: #D4E6EC;rgba(0,174,213,   1);
   font-size: 120%;
 }
 .chart {
@@ -1081,6 +1105,7 @@ height: auto;
 .choose h2 {
   color: #00AED5;rgba(52, 138, 167, 1);
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-consult .video, #fh5co-consult .choose {
     width: 100% !important;
@@ -1227,13 +1252,18 @@ input[type="text"] {
   width: 50px;
   height: 50px;
   display: table;
-  background: rgba(0, 174, 213, 1);
+  background: rgba(0, 174, 213, 0.5);
   color: #fff;
   text-align: center;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+  /*box-shadow: 2px 2px 10px white;*/
 }
 .gototop a i {
   height: 50px;
@@ -1243,7 +1273,7 @@ input[type="text"] {
 .gototop a:hover, .gototop a:active, .gototop a:focus {
   text-decoration: none;
   outline: none;
-  background: rgba(0, 174, 213, 0.5);
+  background: rgba(0, 174, 213, 1);
 }
 
 .btn {
@@ -1260,6 +1290,7 @@ input[type="text"] {
   -o-transition: 0.5s;
   transition: 0.5s;
   padding: 8px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
 }
 .btn.btn-md {
   padding: 8px 20px !important;
