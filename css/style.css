@@ -150,27 +150,36 @@ height: 50px;
 
 
 @media screen and (max-width: 768px) {
+  #nav-bar {
+    padding: 5px 0 10px 0;
+  }
   .nav-bar-text{
     font-size: 60%;
   }
   .floating-box {  
+    margin: 1px;
     padding: 0 1px 0 1px;
   }
   .nav-bar-div{
   text-align: right;
-  margin-right: 15px; 
+  margin-right: 10px; 
   }
   
   #logo{
     position: absolute;
-    top: 20%;
+    top: 16%;
     left: 1%;
   }
   #logo img{
     width: 30px;
     height: 30px;
   }
-}
+  #nav-bar-about,
+  #nav-bar-cv,
+  #nav-bar-expertise,
+  #nav-bar-skills,
+  #nav-bar-contact {border-width: 1px;}
+  }
 /**/
 /**/
 /**/
