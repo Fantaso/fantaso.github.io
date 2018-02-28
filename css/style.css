@@ -159,7 +159,17 @@ height: 50px;
   .nav-bar-div{
   text-align: right;
   margin-right: 15px; 
-}
+  }
+  
+  #logo{
+    position: absolute;
+    top: 20%;
+    left: 1%;
+  }
+  #logo img{
+    width: 30px;
+    height: 30px;
+  }
 }
 /**/
 /**/
