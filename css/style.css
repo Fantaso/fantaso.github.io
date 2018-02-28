@@ -78,6 +78,10 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
   background: #00AED5;#FF9000;
 }
+
+/*NAV BAR MINE*/
+/**/
+/**/
 #nav-bar {
   width: 100%;
   height: auto;
@@ -133,12 +137,33 @@ height: 50px;
 .padding-top-nav{
   padding-top: 0px;
 }
+.nav-bar-div{
+  text-align: center;
+}
 .center-div{
   text-align: center;
 }
 .left-div{
   text-align: left;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .nav-bar-text{
+    font-size: 60%;
+  }
+  .floating-box {  
+    padding: 0 1px 0 1px;
+  }
+  .nav-bar-div{
+  text-align: right;
+  margin-right: 15px; 
+}
+}
+/**/
+/**/
+/**/
 
 #fh5co-header,
 .fh5co-cover {
