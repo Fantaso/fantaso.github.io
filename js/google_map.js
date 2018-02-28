@@ -34,17 +34,22 @@ function init() {
 
     for (var x = 0; x < addresses.length; x++) {
         $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address='+addresses[x]+'&sensor=false', null, function (data) {
-            var p = data.results[0].geometry.location
+            var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+            var p = data.results[0].geometry.location;
             var latlng = new google.maps.LatLng(p.lat, p.lng);
             new google.maps.Marker({
                 position: latlng,
                 map: map,
-                icon: 'images/map-pointer.png',
-                shadow: shadowImage,
+                animation: google.maps.Animation.BOUNCE,
+                icon: image,
+                // shadow: shadowImage,
             });
 
         });
     }
+
+    // animation: google.maps.Animation.DROP
+    // icon: 'images/map-pointer.png'
     
 }
 google.maps.event.addDomListener(window, 'load', init);
