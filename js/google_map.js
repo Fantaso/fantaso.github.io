@@ -34,7 +34,7 @@ function init() {
 
     for (var x = 0; x < addresses.length; x++) {
         $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address='+addresses[x]+'&sensor=false', null, function (data) {
-            var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+            var image = 'https://raw.githubusercontent.com/Fantaso/fantaso.github.io/master/images/map-pointer.png';
             var p = data.results[0].geometry.location;
             var latlng = new google.maps.LatLng(p.lat, p.lng);
             new google.maps.Marker({
@@ -51,5 +51,23 @@ function init() {
     // animation: google.maps.Animation.DROP
     // icon: 'images/map-pointer.png'
     
+    // function initMap() {
+    //     var myLatLng = {lat: -25.363, lng: 131.044};
+
+    //     var map = new google.maps.Map(document.getElementById('map'), {
+    //       zoom: 4,
+    //       center: myLatLng
+    //     });
+
+    //     var marker = new google.maps.Marker({
+    //       position: myLatLng,
+    //       map: map,
+    //       title: 'Hello World!'
+    //     });
+    //   }
+
+
+
+
 }
 google.maps.event.addDomListener(window, 'load', init);
