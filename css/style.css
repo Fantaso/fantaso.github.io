@@ -1309,7 +1309,7 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
 .btn-primary {
   background: #00AED5;#FF9000;
   color: #fff;
-  border: 2px solid #00AED5;#FF9000;
+  border: 0px solid #00AED5;#FF9000;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: white !important;
@@ -1319,7 +1319,7 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
 .btn-primary.btn-outline {
   background: transparent;
   color: #00AED5;#FF9000;
-  border: 2px solid white;#00AED5;#FF9000;
+  border: 0px solid red;#00AED5;#FF9000;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
   background: #00AED5;#FF9000;
