@@ -96,10 +96,10 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /*box-shadow: 2px 2px 100px rgba(0,0,0,5);*/
   /*display: inline-block;*/
-  -webkit-transition: background 0.7s ease-in-out;
-  -moz-transition: background 0.7s ease-in-out;
-  -o-transition: background 0.7s ease-in-out;
-  transition: background 0.7s ease-in-out;
+  -webkit-transition: background 0.9s ease-in-out;
+  -moz-transition: background 0.9s ease-in-out;
+  -o-transition: background 0.9s ease-in-out;
+  transition: background 0.9s ease-in-out;
 }
 .floating-box {
     display: inline-block;
