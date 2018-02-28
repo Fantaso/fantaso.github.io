@@ -106,8 +106,14 @@ h1, h2, h3, h4, h5, h6, figure {
     /*border: 3px solid #73AD21;  */
 }
 .nav-bar-text{
+  font-size: 100%;
   color: white;
-  /*border-bottom: 4px solid rgba(227,181,5,    1)*/
+  -webkit-transition-duration: 1.5s;
+  transition-duration: 1.5s;
+}
+.nav-bar-text:hover{
+  font-size: 120%;
+  color: white;
 }
 
 #nav-bar-about     {border-bottom: 3px solid rgba(227,181,5,    1);}
@@ -155,6 +161,12 @@ height: auto;
   }
   .nav-bar-text{
     font-size: 60%;
+    -webkit-transition-duration: 1.5s;
+    transition-duration: 1.5s;
+  }
+  .nav-bar-text:hover{
+    font-size: 70%;
+
   }
   .floating-box {  
     margin: 1px;
@@ -180,6 +192,12 @@ height: auto;
   #nav-bar-skills,
   #nav-bar-contact {border-width: 1px;}
   }
+  /*#nav-bar-about:hover,
+  #nav-bar-cv:hover,
+  #nav-bar-expertise:hover,
+  #nav-bar-skills:hover,
+  #nav-bar-contact:hover {font-size: 70%}
+  }*/
 /**/
 /**/
 /**/
