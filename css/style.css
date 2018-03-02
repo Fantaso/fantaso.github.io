@@ -50,50 +50,37 @@ a {
 a:hover, a:active, a:focus {
   color: #C0B7B1;#FF9000;
   outline: none;
-  text-decoration: none;
-}
+  text-decoration: none;}
 
-
-
-p {
-  margin-bottom: 30px;
-}
+p { margin-bottom: 30px; }
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
-  margin: 0 0 20px 0;
-}
+  margin: 0 0 20px 0;}
 
 ::-webkit-selection {
   color: #C0B7B1;
-  background: #00AED5;#FF9000;
-}
+  background: #00AED5;#FF9000;}
 
 ::-moz-selection {
   color: #C0B7B1;
-  background: #00AED5;#FF9000;
-}
+  background: #00AED5;#FF9000;}
 
 ::selection {
   color: #C0B7B1;
-  background: #00AED5;#FF9000;
-}
+  background: #00AED5;#FF9000;}
 
 /*NAV BAR MINE*/
 /**/
 /**/
 /* NAVEGATION BAR GENERAL */
 #nav-bar {
-  width: 100%;
-  height: auto;
+  width: 100%; height: auto;
   padding: 10px 0 15px 0;
-  background-color: rgba(0,0,0, 0.1);
-  color: white;#0582ca;
-  position: fixed;
-  top: 0;
-  z-index: 1;
+  color: white; background-color: rgba(0,0,0, 0.1);
+  position: fixed; top: 0; z-index: 2;
   border-bottom: 1px solid rgba(255,255,255, 0.1);
   box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
   -webkit-transition: background 0.9s ease-in-out;
@@ -132,28 +119,31 @@ h1, h2, h3, h4, h5, h6, figure {
   border-width: 7px !important;}
 
 @media screen and (max-width: 768px) {
-  #nav-bar {
-    padding: 5px 0 10px 0;
-  }
-  .nav-bar-text{
-    font-size: 60%;
-    -webkit-transition-duration: 1.5s;
-    transition-duration: 1.5s;
-    text-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);}
-  .nav-bar-text:hover{
-    font-size: 75%;
-    text-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);}
-  .floating-box {  
-    margin: 1px;
-    padding: 0 1px 0 1px;}
-  .nav-bar-div{
-  text-align: right; margin-right: 10px;}
-  
-  #logo{
-    position: absolute; top: 16%; left: 1%;}
-  #logo img{
-    width: 30px; height: auto;}
-  #nav-bar-about, #nav-bar-cv, #nav-bar-expertise, #nav-bar-skills, #nav-bar-contact {border-width: 1px;}
+    #nav-bar {
+      padding: 5px 0 10px 0;
+    }
+    .nav-bar-text{
+      font-size: 60%;
+      -webkit-transition-duration: 1.5s;
+      transition-duration: 1.5s;
+      text-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);}
+    .nav-bar-text:hover{
+      font-size: 75%;
+      text-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);}
+    .floating-box {  
+      margin: 1px;
+      padding: 0 1px 0 1px;}
+    .nav-bar-div {
+    text-align: right !important;
+    margin-right: 10px;
+    }
+    
+    #logo{
+      position: absolute; top: 16%; left: 1%;}
+    #logo img{
+      width: 30px; height: auto;}
+    .nav-bar-about, .nav-bar-cv, .nav-bar-expertise, .nav-bar-skills, .nav-bar-contact {border-width: 1px;}
+    .nav-bar-about:hover, .nav-bar-cv:hover, .nav-bar-expertise:hover, .nav-bar-skills:hover, .nav-bar-contact:hover {border-width: 5px;}
 }
 
 
