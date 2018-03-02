@@ -1570,7 +1570,7 @@ main {
 }
 @keyframes b { 
   0%, 33% { transform: translateX(0); }
-  40%, 90% { transform: translateX(20px); }
+  40%, 90% { transform: translateX(30px); }
 }
 @keyframes c { 
   0%, 20% { transform: translateX(0); }
