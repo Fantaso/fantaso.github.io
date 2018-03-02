@@ -1576,8 +1576,8 @@ main {
   0%, 40% { transform: translateX(35px); }
 }
 @keyframes b { 
-  10%, 30% { transform: translateY(20px); }
-  50%, 70% { transform: translateX(60px); }
+  10%, 30% { transform: translateY(10px); }
+  50%, 70% { transform: translateX(36px); }
 }
 @keyframes c { 
   0%, 20% { transform: translateX(0); }
