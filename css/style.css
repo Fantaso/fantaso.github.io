@@ -135,11 +135,11 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 
-#nav-bar-about:hover    {color: white, rgba(227,181,5,    1);background-color: rgba(255,255,255, 0); border-radius: 15%;}
-#nav-bar-cv:hover       {color: white, rgba(192,87,70,    1);background-color: rgba(255,255,255, 0); border-radius: 15%;}
-#nav-bar-expertise:hover{color: white, rgba(0,174,213,   1);background-color: rgba(255,255,255, 0); border-radius: 15%;}
-#nav-bar-skills:hover   {color: white, rgba(214,248,214,  1);background-color: rgba(255,255,255, 0); border-radius: 15%;}
-#nav-bar-contact:hover  {color: white, rgba(127,198,164,  1);background-color: rgba(255,255,255, 0); border-radius: 15%;}
+#nav-bar-about:hover    {color: white, rgba(227,181,5,    1);background-color: rgba(255,255,255, 0); border-width: 7px;}
+#nav-bar-cv:hover       {color: white, rgba(192,87,70,    1);background-color: rgba(255,255,255, 0); border-width: 7px;}
+#nav-bar-expertise:hover{color: white, rgba(0,174,213,    1);background-color: rgba(255,255,255, 0); border-width: 7px;}
+#nav-bar-skills:hover   {color: white, rgba(214,248,214,  1);background-color: rgba(255,255,255, 0); border-width: 7px;}
+#nav-bar-contact:hover  {color: white, rgba(127,198,164,  1);background-color: rgba(255,255,255, 0); border-width: 7px;}
 
 #logo{
   position: absolute;
