@@ -1543,8 +1543,15 @@ main {
 }
 
 /*h1 { margin: 0; }*/
-.marker, .a, .b, .c, .d, .e {
+.marker, .a, .c, .d, .e {
   animation-timing-function: cubic-bezier(0.8, 0.1, 0.9, 1);
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  will-change: transform;
+}
+
+.b {
+  animation-timing-function: cubic-bezier(0.5, 0.4, 0.5, 1);
   animation-duration: 5s;
   animation-iteration-count: infinite;
   will-change: transform;
@@ -1569,8 +1576,8 @@ main {
   0%, 40% { transform: translateX(35px); }
 }
 @keyframes b { 
-  0%, 33% { transform: translateX(0); }
-  40%, 90% { transform: translateX(30px); }
+  10%, 30% { transform: translateY(20px); }
+  50%, 70% { transform: translateX(60px); }
 }
 @keyframes c { 
   0%, 20% { transform: translateX(0); }
