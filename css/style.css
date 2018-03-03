@@ -1546,7 +1546,7 @@ main {
 }
 @keyframes b { 
   10%, 30% { transform: translateY(7px); }
-  50%, 70% { transform: translateX(36px); }
+  50%, 70% { transform: translateX(10%); }
 }
 @keyframes c { 
   0%, 20% { transform: translateX(0); }
