@@ -91,6 +91,12 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #C0B7B1;
   background: #00AED5;#FF9000;}
 
+.icons-skills{
+  padding-left: 10px;
+  height: 30px;
+  width: auto;
+}
+
 /*NAV BAR MINE*/
 /**/
 /**/
@@ -195,6 +201,11 @@ box-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
     }
     .nav-bar-about, .nav-bar-cv, .nav-bar-expertise, .nav-bar-skills, .nav-bar-contact {border-width: 1px;}
     .nav-bar-about:hover, .nav-bar-cv:hover, .nav-bar-expertise:hover, .nav-bar-skills:hover, .nav-bar-contact:hover {border-width: 5px;}
+    .icons-skills{
+    padding-left: 15px;
+    height: 40px;
+    width: auto;
+    }
 }
   /*#nav-bar-about:hover,
   #nav-bar-cv:hover,
@@ -1482,11 +1493,7 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
   margin: 0px !important;
 }
 
-.icons-skills{
-  padding-left: 10px;
-  height: 30px;
-  width: auto;
-}
+
 .fh5co-loader {
   position: fixed;
   left: 0px;
