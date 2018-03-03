@@ -51,6 +51,12 @@ a {
 .link-underline{
   text-decoration: underline;
 }
+.link-all{
+  color: #00AED5;
+}
+.link-all:hover{
+  color: white;
+}
 a:hover, a:active, a:focus {
   color: white;#C0B7B1;#FF9000;
   outline: none;
@@ -749,7 +755,7 @@ box-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: normal;
-  color: #939292;#bfbfbf;
+  /*color: #939292;#bfbfbf;*/
 }
 
 .timeline-body > p,
