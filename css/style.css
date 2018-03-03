@@ -48,6 +48,9 @@ a {
   transition: 0.5s;
 
 }
+  .break {
+      text-align: center;
+    }
 .link-underline{
   text-decoration: underline;
 }
@@ -1486,7 +1489,10 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url(../images/loader.gif) center no-repeat #fff;
+  /*background-color: red;#00AED5;*/
+  background: url(../images/loader4.gif) center no-repeat #00AED5;
+  /*background: url(../images/loader5.gif) center no-repeat lightgray;*/
+  /*background: url(../images/loader7.gif) center no-repeat lightgray;*/
 }
 
 .js .animate-box {
