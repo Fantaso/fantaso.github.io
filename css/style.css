@@ -120,6 +120,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .resume-skills-list-links{
   color: #939292 !important;
+  margin-bottom: 3px;
 
 }
 .resume-skills-list a img {
