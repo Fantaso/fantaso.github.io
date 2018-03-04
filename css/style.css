@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .icons-skills{
   margin-right: 10px;
-  height: 30px;
+  height: 27px;
   width: auto;
 }
 .resume-skills{
@@ -245,8 +245,8 @@ box-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
     .nav-bar-about, .nav-bar-cv, .nav-bar-expertise, .nav-bar-skills, .nav-bar-contact {border-width: 1px;}
     .nav-bar-about:hover, .nav-bar-cv:hover, .nav-bar-expertise:hover, .nav-bar-skills:hover, .nav-bar-contact:hover {border-width: 5px;}
     .icons-skills{
-    padding-right: 15px;
-    height: 33px;
+    margin-right: 7px;
+    height: 20px;
     width: auto;
     }
 }
