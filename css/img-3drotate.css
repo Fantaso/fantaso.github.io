@@ -1,0 +1,44 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  /*padding: 200px 200px 0 200px;*/
+  -webkit-perspective: 100px;
+          perspective: 100px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+.frame .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+
+  /*background: rgba(255,255,255,0.2);white;*/
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  overflow: hidden;
+}
+.frame .card img {
+  /*display: block;*/
+  position: relative;
+  width: 100%;
+  height: auto;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
