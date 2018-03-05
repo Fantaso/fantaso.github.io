@@ -95,36 +95,80 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 27px;
   width: auto;
 }
-.resume-skills{
-  color: rgba(227,181,5,    0.5) !important;
-  /*color: #939292 !important;*/
-  /*font-family: 'Ubuntu Mono', sans-serif;*/
-  /*font-size: 100%;*/
-  /*font-style: italic;*/
 
-}
+
 .pic-bg-white{
   background-color: white !important;
 }
-.resume-skills-list{
+.resume-skills-r{
+  margin-right: 19px;
   color: #939292 !important;
+}
+.resume-skills-list-r{
+  color: rgba(255,255,255,    0.75) !important;rgba(22,182,165,    0.6) !important;
   padding-right: 15px;
   border-style: solid;
+  font-size: 80%;
   border-spacing: 3px 3px;
   border-radius: 0%;
   border-width: 0 4px 0 0 !important;
   border-color: rgba(147,146,146,    0.8) !important;
 }
-.resume-skills-list-links{
+.resume-skills-list-links-r{
   color: #939292 !important;
+  padding-right: 8px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-radius: 0%;
+  border-width: 0 4px 0 0 !important;
+  border-color: rgba(147,146,146,    0.8) !important;
+}
+.resume-skills-list-links-r img{
   margin-bottom: 10px;
 }
-.resume-skills-list-links img{
+.resume-skills-wrap-r div{
+  margin-top: 20px;
+  margin-right: 19px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+.resume-skills-l{
+  margin-left: 19px;
+  color: #939292 !important;
+}
+.resume-skills-list-l{
+  color: rgba(255,255,255,    0.75) !important;rgba(22,182,165,    0.6) !important;
+  padding-left: 15px;
+  border-style: solid;
+  font-size: 80%;
+  border-spacing: 3px 3px;
+  border-radius: 0%;
+  border-width: 0 0 0 4px !important;
+  border-color: rgba(147,146,146,    0.8) !important;
+}
+.resume-skills-list-links-l{
+  color: #939292 !important;
+  padding-left: 14px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-radius: 0%;
+  border-width: 0 0 0 4px !important;
+  border-color: rgba(147,146,146,    0.8) !important;
+}
+.resume-skills-list-links-l img{
   margin-bottom: 10px;
 }
-.resume-skills-list a img {
-  /*box-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);*/
+.resume-skills-wrap-l div{
+  margin-top: 20px;
+  margin-left: 19px;
+  margin-bottom: 15px;
+  text-decoration: underline;
 }
+
+
+
+
 .pic-shadow-round{
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -252,6 +296,41 @@ box-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
     .resume-skills-list-links img{
     margin-bottom: 8px;
     }
+
+    .resume-skills-r{
+  margin-left: 19px;
+  color: #939292 !important;
+}
+.resume-skills-list-r{
+  color: rgba(255,255,255,    0.75) !important;rgba(22,182,165,    0.6) !important;
+  padding-left: 15px;
+  border-style: solid;
+  font-size: 80%;
+  border-spacing: 3px 3px;
+  border-radius: 0%;
+  border-width: 0 0 0 4px !important;
+  border-color: rgba(147,146,146,    0.8) !important;
+}
+.resume-skills-list-links-r{
+  color: #939292 !important;
+  padding-left: 14px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-radius: 0%;
+  border-width: 0 0 0 4px !important;
+  border-color: rgba(147,146,146,    0.8) !important;
+}
+.resume-skills-list-links-r img{
+  margin-bottom: 10px;
+}
+.resume-skills-wrap-r div{
+  margin-top: 20px;
+  margin-left: 19px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+
 }
   /*#nav-bar-about:hover,
   #nav-bar-cv:hover,
