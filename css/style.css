@@ -79,15 +79,15 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 20px 0;}
 
 ::-webkit-selection {
-  color: #C0B7B1;
+  color: white;#C0B7B1;
   background: #00AED5;#FF9000;}
 
 ::-moz-selection {
-  color: #C0B7B1;
+  color: white;#C0B7B1;
   background: #00AED5;#FF9000;}
 
 ::selection {
-  color: #C0B7B1;
+  color: white;#C0B7B1;
   background: #00AED5;#FF9000;}
 
 .icons-skills{
