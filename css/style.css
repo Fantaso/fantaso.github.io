@@ -103,6 +103,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .resume-skills-r{
   margin-right: 19px;
   color: #939292 !important;
+
 }
 .resume-skills-list-r{
   color: rgba(255,255,255,    0.75) !important;rgba(22,182,165,    0.6) !important;
@@ -113,6 +114,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 0%;
   border-width: 0 4px 0 0 !important;
   border-color: rgba(147,146,146,    0.8) !important;
+  
 }
 .resume-skills-list-links-r{
   color: #939292 !important;
@@ -122,6 +124,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 0%;
   border-width: 0 4px 0 0 !important;
   border-color: rgba(147,146,146,    0.8) !important;
+  
 }
 .resume-skills-list-links-r img{
   margin-bottom: 10px;
@@ -165,7 +168,12 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 15px;
   text-decoration: underline;
 }
-
+.hide-show div {
+  display: none;
+}
+.hide-show:hover div{
+  display: block;
+}
 .pic-round{
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
