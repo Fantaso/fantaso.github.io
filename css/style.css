@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 0%;
   border-width: 0 4px 0 0 !important;
   border-color: rgba(147,146,146,    0.8) !important;
-  
+
 }
 .resume-skills-list-links-r{
   color: #939292 !important;
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 0%;
   border-width: 0 4px 0 0 !important;
   border-color: rgba(147,146,146,    0.8) !important;
-  
+
 }
 .resume-skills-list-links-r img{
   margin-bottom: 10px;
@@ -279,14 +279,14 @@ box-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
     .nav-bar-text:hover{
       font-size: 85%;
       text-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);}
-    .floating-box {  
+    .floating-box {
       margin: 1px;
       padding: 0 1px 0 1px;}
     .nav-bar-div {
     text-align: right !important;
     margin-right: 10px;
     }
-    
+
     #logo {
       position: absolute;
       top: 16%;
@@ -298,7 +298,7 @@ box-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
     }
     .nav-bar-about, .nav-bar-cv, .nav-bar-expertise, .nav-bar-skills, .nav-bar-contact {border-width: 1px;}
     .nav-bar-about:hover, .nav-bar-cv:hover, .nav-bar-expertise:hover, .nav-bar-skills:hover, .nav-bar-contact:hover {border-width: 5px;}
-    
+
     .icons-skills{
     margin-right: 6px;
     height: 20px;
@@ -733,7 +733,7 @@ box-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
   /*background-color: white;*/
   /*border-radius: 3px;*/
   text-shadow: 0 5px 8px rgba(0,0,0, 0.2), 0 7px 8px rgba(0,0,0, 0.19);
-  
+
   /*background-color: transparent !important;*/
 }
 .fh5co-heading p {
@@ -1710,32 +1710,32 @@ main {
 .d { margin-left: 21px; animation-name: d; }
 .e { margin: 0 36px 0 42px; animation-name: e; }
 
-@keyframes a { 
+@keyframes a {
   0%, 20% { transform: translateX(0); }
   0%, 40% { transform: translateX(35px); }
 }
-@keyframes b { 
+@keyframes b {
   10%, 30% { transform: translateY(7px); }
   50%, 70% { transform: translateX(26px); }
 }
-@keyframes c { 
+@keyframes c {
   0%, 20% { transform: translateX(0); }
   50%, 70% { transform: translateX(30px); }
 }
-@keyframes d { 
+@keyframes d {
   0%, 20% { transform: translateX(0); }
   50%, 70% { transform: translateX(40px); }
 }
-@keyframes e { 
+@keyframes e {
   0%, 30% { transform: translateX(0); }
   10%, 70% { transform: translateX(50px); }
 }
-@keyframes marker { 
+@keyframes marker {
   0%, 20% { transform: translateX(0); }
   20%, 40% { transform: translateX(80px); }
 }
 
-
+/* ######################################################################################## */
 
 .crazy-letter{
   color: #fff;
@@ -1750,7 +1750,12 @@ main {
 }
 
 
-
+.center-item {
+    margin: auto;
+    width: auto;
+    /* border: 3px solid green; */
+    padding: 10px;
+}
 
 
 
