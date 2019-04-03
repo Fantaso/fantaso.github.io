@@ -273,18 +273,20 @@ box-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
       padding: 5px 0 10px 0;
     }
     .nav-bar-text{
-      font-size: 70%;
+      font-size: 50%;
+      margin: 0;
+      padding: 0;
       -webkit-transition-duration: 1.5s;
       transition-duration: 1.5s;
       text-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);}
     .nav-bar-text:hover{
-      font-size: 85%;
+      font-size: 70%;
       text-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);}
     .floating-box {
       margin: 1px;
       padding: 0 1px 0 1px;}
     .nav-bar-div {
-    text-align: center !important;
+    text-align: right !important;
     margin-right: 10px;
     }
 
@@ -294,7 +296,7 @@ box-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
       left: 1%;
     }
     #logo img {
-      width: 30px;
+      width: 20px;
       height: auto;
     }
     .nav-bar-about, .nav-bar-cv, .nav-bar-expertise, .nav-bar-skills, .nav-bar-contact {border-width: 1px;}
@@ -1075,7 +1077,7 @@ box-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
   display: table-cell;
   vertical-align: middle;
   height: 270px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.9);
   opacity: 0;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -1100,7 +1102,8 @@ box-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
 @media screen and (max-width: 768px) {
   .work .desc {
     opacity: 1;
-    background: rgba(255, 255, 255, 0.6);
+    color:white;
+    background: rgba(0, 0, 0, 0.7);
   }
   .work .desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
@@ -1113,6 +1116,7 @@ box-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
 }
 .work:hover .desc {
   opacity: 1;
+  color:white;
 }
 .work:hover .desc h3 {
   -webkit-transform: translate3d(0, 0, 0);
@@ -1761,7 +1765,7 @@ main {
 }
 
 .bg-blue {background: rgba(0,174,213,1) !important; }
-.margin-section-slider {padding: 20px 0px 0px 20px;}
+.margin-section-slider {padding: 20px 0px 20px 0px;}
 .margin-project-title {margin: 50px 0 0 50px;}
 .text-center{text-align: center;}
 .text-left{text-align: left !important;}
@@ -1774,6 +1778,45 @@ main {
 .new-badge{
     color: white !important;
 }
+
+/* #myCarousel.carousel-inner.item.pcituresize */
+.carousel-pictures {
+    max-height: 400px;
+    max-width: 1000px;
+}
+.document-size {
+    max-height: 480px;
+    max-width: 360px;
+}
+
+@media onely screen and (max-width: 768px;) {
+    .carousel-pictures {
+        height: 400px;
+        width: 700px;
+    }
+
+    h3 {
+        font-size: 80%;
+    }
+
+}
+
+@media onely screen and (min-width: 767px;) {
+    .carousel-pictures {
+        max-height: 400px;
+        max-width: 350px;
+    }
+    .document-size {
+        height: 480px;
+        width: 350px;
+    }
+    h3 {
+        font-size: 70%;
+    }
+}
+
+
+/* carousel pictures */
 
 
 /*# sourceMappingURL=style.css.map */
