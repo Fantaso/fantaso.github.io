@@ -106,6 +106,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 }
 .resume-skills-list-r{
+  text-align: right !important;
   color: rgba(255,255,255,    0.75) !important;rgba(22,182,165,    0.6) !important;
   padding-right: 15px;
   border-style: solid;
@@ -141,6 +142,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #939292 !important;
 }
 .resume-skills-list-l{
+
   color: rgba(255,255,255,    0.75) !important;rgba(22,182,165,    0.6) !important;
   padding-left: 15px;
   border-style: solid;
@@ -922,6 +924,7 @@ box-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
 .timeline-body > p,
 .timeline-body > ul {
   margin-bottom: 0;
+  text-align: justify;
   color: #EFEFEF;
 }
 
