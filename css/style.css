@@ -253,11 +253,13 @@ box-shadow: 0 5px 8px rgba(0,0,0, 0.25), 0 7px 8px rgba(0,0,0, 0.24);
   transition: 1.5s;}
 /* NAVAGATION BAR UNDERLINE */
 .nav-bar-about     { border-bottom: 3px solid rgba(227,181,5,    1);}
-.nav-bar-cv        { border-bottom: 3px solid rgba(192,87,70,    1);}
+.nav-bar-cv        { border-bottom: 3px solid rgba(255,0,0,      1);}
 .nav-bar-expertise { border-bottom: 3px solid rgba(0,174,213,    1);}
 .nav-bar-skills    { border-bottom: 3px solid rgba(214,248,214,  1);}
-.nav-bar-projects    { border-bottom: 3px solid rgba(255,0,255,  1);}
-.nav-bar-contact   { border-bottom: 3px solid rgba(127,198,164,  1);}
+.nav-bar-projects  { border-bottom: 3px solid rgba(22,219,147,   1);}
+.nav-bar-contact   { border-bottom: 3px solid rgba(242,158,76,   1);}
+/*.nav-bar-projects  { border-bottom: 3px solid rgba(127,198,164,  1);}*/
+/*.nav-bar-contact   { border-bottom: 3px solid rgba(192,87,70,    1);}*/
 /* NAVEGATION BAR TEXT AND UNDERLINE HOVER */
 .nav-bar-text:hover{
   color: white; font-size: 120%;   border-width: 7px;
