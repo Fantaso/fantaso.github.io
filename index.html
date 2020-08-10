@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <!-- FIX THESE ERRORS -->
 <!-- Add the Nav Bar (About me, Services, My Resume, Expertise, Soft Skills, Projects, Blog,) -->
 <!-- Mailchimp - <textarea> css -->
@@ -25,13 +25,13 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137403829-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-137403829-1');
-    </script>
+<!--    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137403829-1"></script>-->
+<!--    <script>-->
+<!--      window.dataLayer = window.dataLayer || [];-->
+<!--      function gtag(){dataLayer.push(arguments);}-->
+<!--      gtag('js', new Date());-->
+<!--      gtag('config', 'UA-137403829-1');-->
+<!--    </script>-->
     <meta charset="utf-8">
     <meta name="google-site-verification" content="srJyVZY-TwxMKgr00oBIeC9wR33NnDVXX637Ksa1TdU" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -58,7 +58,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 
     <!-- MailChimp.css -->
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<!--    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">-->
     <!-- Animate.css -->
     <link rel="stylesheet" href="css/animate.css">
     <!-- Icomoon Icon Fonts-->
@@ -78,9 +78,6 @@
     <script src="js/nav-bar-autohover.js"></script>
     <!-- URL IMAGE PREVIEW -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <!-- MiniPreview stuff here -->
-    <link href="./jquery.minipreview.css" rel="stylesheet">
-    <script src="./jquery.minipreview.js"></script>
     <!-- END URL IMAGE PREVIEW -->
     <!-- Image 3d Rotate css -->
     <link rel="stylesheet" type="text/css" href="css/img-3drotate.css">
@@ -101,12 +98,13 @@
 <!--______-->
 <!-- BODY -->
 <!--______-->
+<body>
 <section class="fh5co-loader"></section>
 <section id="nav-bar">
     <div class="floating-box left-div" id="logo">
         <main>
             <div class="b">
-                <a href="#"><img src="images/fantaso.png"></a>
+                <a href="#"><img src="images/fantaso.png" alt=""></a>
             </div>
         </main>
     </div>
@@ -159,9 +157,9 @@
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <div class="display-t js-fullheight">
                         <div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-                            <div class="profile-thumb" style="backround: url(images/carlosrosas1.png);">
+                            <div class="profile-thumb">
                                 <div class="frame">
-                                    <div class="card"><img class="background-img profile-thum" src="images/carlosrosas.png" /></div>
+                                    <div class="card"><img class="background-img profile-thum" src="images/carlosrosas.png"  alt=""/></div>
                                 </div>
 
                             </div>
@@ -209,7 +207,7 @@
                         <li><span class="first-block">Address:</span><span class="second-block">Berlin Germany</span></li>
                         <li>
                             <span class="first-block">Languages:</span>
-                            <span class="second-block">
+                            <div class="second-block">
                                 <div class="progress-wrap">
                                     <h3><span class="name-left-bout">Spanish</span><span class="value-right-bout">C2</span></h3>
                                     <div class="progress">
@@ -228,7 +226,7 @@
                                         <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:35%"></div>
                                     </div>
                                 </div>
-                            </span>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -248,30 +246,31 @@
                         I walk towards self-sufficiency and decentralization, where humans can empower themselves and
                         others to a lower dependency on intrinsic human needs such as:
                     </p>
-                    <p style=" text-align: left; color: white;">Water, Food, Shelter, Energy & Information.</p><br>
-                    <p style=" text-align: left; margin:0px; color:white;"><small>Developer & Social Networks:</small></p>
-                    <p style="margin:0px;">
+                    <p style=" text-align: left; color: white;">Water, Food, Shelter, Energy & Information.</p>
+                    <br>
+                    <p style=" text-align: left; margin:0; color:white;"><small>Developer & Social Networks:</small></p>
+                    <div style="margin:0;">
                         <ul class="fh5co-social-icons">
-                            <li id=""><a href="https://www.linkedin.com/in/carlosmrosash" target="_blank"><i class="icon-linkedin2"></i></a></li>
-                            <li id=""><a href="https://www.xing.com/profile/Carlos_Rosas11" target="_blank"><i class="fab fa-xing"></i></a></li>
-                            <li id=""><a href="https://www.youtube.com/channel/UC7y3F6RJ_GjNRhDMShK4OJw" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                            <!-- <li id=""><a href="https://codepen.io/Fantaso" target="_blank"><i class="fab fa-codepen"></i></a></li> -->
-                            <!-- <li id=""><a href="https://hackerrank.com/fantaso" target="_blank"><i class="fab fa-hackerrank"></i></a></li> -->
-                            <!-- <li id=""><a href="https://www.kaggle.com/fantaso" target="_blank"><i class="fab fa-kaggle"></i></a></li> -->
-                            <!-- <li id=""><a href="https://stackoverflow.com/users/8210328/fantaso" target="_blank"><i class="fab fa-stack-overflow"></i></a></li> -->
-                            <li id=""><a href="https://hub.docker.com/u/fantaso" target="_blank"><i class="fab fa-docker"></i></a></li>
-                            <li id=""><a href="https://github.com/fantaso" target="_blank"><i class="fab fa-github"></i></a></li>
-                            <li id=""><a href="https://gitlab.com/fantaso" target="_blank"><i class="fab fa-gitlab"></i></a></li>
-                            <!-- <li id=""><a href="https://leetcode.com/fantaso/" target="_blank"></a></li> -->
-                            <!-- <li id=""><a href="https://create.piktochart.com/dashboard" target="_blank"></a></li> -->
-                            <!-- <li id=""><a href="https://www.sololearn.com/Profile/5159355" target="_blank"></a></li> -->
-                            <!-- <li id=""><a href="https://www.codecademy.com/cmrh86" target="_blank"></a></li> -->
-                            <!-- <li id=""><a href="https://www.codecademy.com/Fantaso" target="_blank"></a></li> -->
-                            <!-- <li id=""><a href="https://www.instagram.com/pepelepu7777/" target="_blank"><i class="fab fa-instagram"></i></a></li> -->
-                            <!-- <li id=""><a href="https://www.udemy.com/user/fantaso/" target="_blank"><div style="width:10%; height:10px;"><img src="/images/profile/profile-udemy.svg" alt=""></div></a></li> -->
-                            <!-- <li id=""><a href="https://codepen.io/cmrh86" target="_blank"><i class="fab fa-codepen"></i></a></li> -->
+                            <li><a href="https://www.linkedin.com/in/carlosmrosash" target="_blank"><i class="icon-linkedin2"></i></a></li>
+                            <li><a href="https://www.xing.com/profile/Carlos_Rosas11" target="_blank"><i class="fab fa-xing"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UC7y3F6RJ_GjNRhDMShK4OJw" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                            <!-- <li><a href="https://codepen.io/Fantaso" target="_blank"><i class="fab fa-codepen"></i></a></li> -->
+                            <!-- <li><a href="https://hackerrank.com/fantaso" target="_blank"><i class="fab fa-hackerrank"></i></a></li> -->
+                            <!-- <li><a href="https://www.kaggle.com/fantaso" target="_blank"><i class="fab fa-kaggle"></i></a></li> -->
+                            <!-- <li><a href="https://stackoverflow.com/users/8210328/fantaso" target="_blank"><i class="fab fa-stack-overflow"></i></a></li> -->
+                            <li><a href="https://hub.docker.com/u/fantaso" target="_blank"><i class="fab fa-docker"></i></a></li>
+                            <li><a href="https://github.com/fantaso" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://gitlab.com/fantaso" target="_blank"><i class="fab fa-gitlab"></i></a></li>
+                            <!-- <li><a href="https://leetcode.com/fantaso/" target="_blank"></a></li> -->
+                            <!-- <li><a href="https://create.piktochart.com/dashboard" target="_blank"></a></li> -->
+                            <!-- <li><a href="https://www.sololearn.com/Profile/5159355" target="_blank"></a></li> -->
+                            <!-- <li><a href="https://www.codecademy.com/cmrh86" target="_blank"></a></li> -->
+                            <!-- <li><a href="https://www.codecademy.com/Fantaso" target="_blank"></a></li> -->
+                            <!-- <li><a href="https://www.instagram.com/pepelepu7777/" target="_blank"><i class="fab fa-instagram"></i></a></li> -->
+                            <!-- <li><a href="https://www.udemy.com/user/fantaso/" target="_blank"><div style="width:10%; height:10px;"><img src="/images/profile/profile-udemy.svg" alt=""></div></a></li> -->
+                            <!-- <li><a href="https://codepen.io/cmrh86" target="_blank"><i class="fab fa-codepen"></i></a></li> -->
                         </ul>
-                    </p>
+                    </div>
                     <!-- DOWNLOAD RESUME BUTTON -->
                     <!-- <p><a href="https://github.com/Fantaso/fantaso.github.io/raw/master/resume/carlos-rosas_one-page-resume.pdf" class="btn btn-primary btn-sm" download>Download CV</a></p> -->
                 </div>
@@ -281,15 +280,16 @@
     
     <!-- PROJECTS -->
     <!-- WORK -->
-    <div id="fh5co-projects" class="animate-box">
+    <section id="fh5co-projects" class="animate-box">
         <div class="container">
+            
             <div class="row animate-box">
                 <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
                     <h2>Projects</h2>
                 </div>
             </div>
+            
             <div class="row">
-                
                 <!-- WhatsApp ChatBot -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center col-padding animate-box">
                     <a href="https://github.com/Fantaso/whatsapp-web" target="_blank" class="work" style="background-image: url(images/projects/whatsapp-chatbot2.png); background-color: white; background-repeat: no-repeat;background-position: center;background-size: cover;">
@@ -383,7 +383,7 @@
                     </a>
                 </div>
 
-                <!-- todo django app -->
+                <!-- to do django app -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center col-padding animate-box">
                     <a href="https://github.com/Fantaso/todo-app-django-rest-api" target="_blank" class="work" style="background-image: url(images/projects/todo-api.png); background-color: white; background-repeat: no-repeat;background-position: left;background-size: cover;">
                         <div class="desc">
@@ -595,7 +595,7 @@
                 <!-- end ambient lamps -->
             </div>
         </div>
-    </div>
+    </section>
     <!-- END PROJECTS -->
     
     
@@ -620,35 +620,43 @@
                     <div><h2 class="soft-skills-category">FRONT-END</h2></div>
                     <!-- javascript -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.javascript.com/" target="_blank" class=""> <span class="name-left link-underline link-w2b">JavaScript</span></a><span class="value-right"><img src="images/skills-javascript.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.javascript.com/" target="_blank" class=""> <span class="name-left link-underline link-w2b">JavaScript</span></a><span class="value-right"><img src="images/skills-javascript.png" class="icons-skills" alt="javascript"></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:45%"></div>
                         </div>
                     </div>
                     <!-- html/css -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.w3.org/standards/webdesign/htmlcss" target="_blank" class=""> <span class="name-left link-underline link-w2b">HTML/CSS</span></a><span class="value-right"><img src="images/skills-html5.png" class="icons-skills"><img src="images/skills-css3.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.w3.org/standards/webdesign/htmlcss" target="_blank" class=""> <span class="name-left link-underline link-w2b">HTML/CSS</span></a><span class="value-right"><img src="images/skills-html5.png" class="icons-skills"
+                                                                                                                                                                                                                               alt=""><img src="images/skills-css3.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:95%"></div>
                         </div>
                     </div>
                     <!-- Bootstrap -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://getbootstrap.com/" target="_blank" class=""> <span class="name-left link-underline link-w2b">Bootstrap CSS</span></a><span class="value-right"><img src="images/tech/tech-bootstrap.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://getbootstrap.com/" target="_blank" class=""> <span class="name-left link-underline link-w2b">Bootstrap CSS</span></a><span class="value-right"><img src="images/tech/tech-bootstrap.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:65%"></div>
                         </div>
                     </div>
                     <!-- Bulma -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://bulma.io/" target="_blank" class=""><span class="name-left link-underline link-w2b">Bulma CSS</span></a><span class="value-right"><span class="value-right"><img src="images/tech/tech-bulma.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2">
+                            <a href="https://bulma.io/" target="_blank">
+                                <span class="name-left link-underline link-w2b">Bulma CSS</span>
+                            </a>
+                            <span class="value-right">
+                                <span class="value-right"><img src="images/tech/tech-bulma.png" class="icons-skills" alt=""></span>
+                            </span>
+                        </h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div>
                         </div>
                     </div>
                     <!-- materialize -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://materializecss.com/" target="_blank" class=""><span class="name-left link-underline link-w2b">Materialize CSS</span></a><span class="value-right"><span class="value-right"><img src="images/tech/tech-materialize.png"class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://materializecss.com/" target="_blank" class=""><span class="name-left link-underline link-w2b">Materialize CSS</span></a><span class="value-right"><span class="value-right"><img src="images/tech/tech-materialize.png" class="icons-skills" alt=""></span></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:40%"></div>
                         </div>
@@ -661,42 +669,48 @@
                     <!-- SKILLS -->
                     <!-- python -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="http://www.python.org" target="_blank" class=""> <span class="name-left link-underline link-w2b">Python</span></a><span class="value-right"><img src="images/skills-python.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="http://www.python.org" target="_blank" class=""> <span class="name-left link-underline link-w2b">Python</span></a><span class="value-right"><img src="images/skills-python.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:90%"></div>
                         </div>
                     </div>
                      <!-- django -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.djangoproject.com/" target="_blank"><span class="name-left link-underline link-w2b">Django</span></a><span class="value-right"><img src="images/tech-django.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.djangoproject.com/" target="_blank"><span class="name-left link-underline link-w2b">Django</span></a><span class="value-right"><img src="images/tech-django.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div>
                         </div>
                     </div>
                     <!-- django rest framework -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.django-rest-framework.org/" target="_blank"><span class="name-left link-underline link-w2b">Django DRF</span></a><span class="value-right"><img src="images/tech-django-rest-extension.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.django-rest-framework.org/" target="_blank"><span class="name-left link-underline link-w2b">Django DRF</span></a><span class="value-right"><img src="images/tech-django-rest-extension.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:75%"></div>
                         </div>
                     </div>
                     <!-- flask -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="http://flask.pocoo.org/" target="_blank" class=""> <span class="name-left link-underline link-w2b">Flask</span></a><span class="value-right"><img src="images/skills-flask.png" class="icons-skills"></a></span></h3>
+                        <h3 class="prev2">
+                            <a href="http://flask.pocoo.org/" target="_blank" class="">
+                                <span class="name-left link-underline link-w2b">Flask</span>
+                            </a>
+                            <span class="value-right">
+                                <img src="images/skills-flask.png" class="icons-skills" alt="images/skills-flask.png">
+                            </span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div>
                         </div>
                     </div>
                     <!-- scrapy -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://scrapy.org/" target="_blank"><span class="name-left link-underline link-w2b">Scrapy</span></a><span class="value-right"><img src="images/tech/scrapy-icon.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://scrapy.org/" target="_blank"><span class="name-left link-underline link-w2b">Scrapy</span></a><span class="value-right"><img src="images/tech/scrapy-icon.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:55%"></div>
                         </div>
                     </div>
                     <!-- selenium -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.selenium.dev/" target="_blank"><span class="name-left link-underline link-w2b">Selenium</span></a><span class="value-right"><img src="images/tech/selenium-icon.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.selenium.dev/" target="_blank"><span class="name-left link-underline link-w2b">Selenium</span></a><span class="value-right"><img src="images/tech/selenium-icon.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
                         </div>
@@ -710,42 +724,42 @@
                     <!-- SKILLS -->
                     <!-- postgresql -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.postgresql.org/" target="_blank" class=""> <span class="name-left link-underline link-w2b">Postgresql</span></a><span class="value-right"><img src="images/tech-postgresql.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.postgresql.org/" target="_blank" class=""> <span class="name-left link-underline link-w2b">Postgresql</span></a><span class="value-right"><img src="images/tech-postgresql.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:85%"></div>
                         </div>
                     </div>
                     <!-- sqlalchemy -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.sqlalchemy.org/" target="_blank"><span class="name-left link-underline link-w2b">SQLAlchemy</span></a><span class="value-right"><img src="images/skills-sqlalchemy.jpg" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.sqlalchemy.org/" target="_blank"><span class="name-left link-underline link-w2b">SQLAlchemy</span></a><span class="value-right"><img src="images/skills-sqlalchemy.jpg" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:75%"></div>
                         </div>
                     </div>
                     <!-- mongodb -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.mongodb.com/" target="_blank" class=""> <span class="name-left link-underline link-w2b">MongoDB</span></a><span class="value-right"><img src="images/tech-mongodb.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.mongodb.com/" target="_blank" class=""> <span class="name-left link-underline link-w2b">MongoDB</span></a><span class="value-right"><img src="images/tech-mongodb.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:35%"></div>
                         </div>
                     </div>
                     <!-- mongoengine -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="http://mongoengine.org/" target="_blank"><span class="name-left link-underline link-w2b">MongoEngine</span></a><span class="value-right"><img src="images/tech-mongoengine.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="http://mongoengine.org/" target="_blank"><span class="name-left link-underline link-w2b">MongoEngine</span></a><span class="value-right"><img src="images/tech-mongoengine.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:40%"></div>
                         </div>
                     </div>
                     <!-- carbon14 (graphql) -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://github.com/edelvalle/carbon14" target="_blank"><span class="name-left link-underline link-w2b">Carbon14 (GraphQL)</span></a><span class="value-right"><img src="images/tech-graphql.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://github.com/edelvalle/carbon14" target="_blank"><span class="name-left link-underline link-w2b">Carbon14 (GraphQL)</span></a><span class="value-right"><img src="images/tech-graphql.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:30%"></div>
                         </div>
                     </div>
                     <!-- aws-rds -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://aws.amazon.com/rds/" target="_blank"><span class="name-left link-underline link-w2b">AWS-RDS</span></a><span class="value-right"><img src="images/tech-aws-rds.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://aws.amazon.com/rds/" target="_blank"><span class="name-left link-underline link-w2b">AWS-RDS</span></a><span class="value-right"><img src="images/tech-aws-rds.png" class="icons-skills" alt=""></span></h3>
                     </div>
                 </div>
 
@@ -755,35 +769,35 @@
                     <!-- SKILLS -->
                     <!-- celery -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://docs.celeryproject.org/en/stable/" target="_blank"><span class="name-left link-underline link-w2b">Celery</span></a><span class="value-right"><img src="images/tech-celery.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://docs.celeryproject.org/en/stable/" target="_blank"><span class="name-left link-underline link-w2b">Celery</span></a><span class="value-right"><img src="images/tech-celery.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div>
                         </div>
                     </div>
                     <!-- django-q -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://django-q.readthedocs.io/en/latest/" target="_blank"><span class="name-left link-underline link-w2b">Django-Q</span></a><span class="value-right"><img src="images/tech/django-q.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://django-q.readthedocs.io/en/latest/" target="_blank"><span class="name-left link-underline link-w2b">Django-Q</span></a><span class="value-right"><img src="images/tech/django-q.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
                         </div>
                     </div>
                     <!-- huey -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://huey.readthedocs.io/en/latest/" target="_blank"><span class="name-left link-underline link-w2b">Huey</span></a><span class="value-right"><img src="images/tech-huey.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://huey.readthedocs.io/en/latest/" target="_blank"><span class="name-left link-underline link-w2b">Huey</span></a><span class="value-right"><img src="images/tech-huey.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:65%"></div>
                         </div>
                     </div>
                     <!-- rabbitmq -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.rabbitmq.com/" target="_blank"><span class="name-left link-underline link-w2b">RabbitMQ</span></a><span class="value-right"><img src="images/tech/rabbitmq.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.rabbitmq.com/" target="_blank"><span class="name-left link-underline link-w2b">RabbitMQ</span></a><span class="value-right"><img src="images/tech/rabbitmq.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:75%"></div>
                         </div>
                     </div>
                     <!-- aws-sqs -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://aws.amazon.com/sqs/" target="_blank"><span class="name-left link-underline link-w2b">AWS-SQS</span></a><span class="value-right"><img src="images/tech/aws-sqs.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://aws.amazon.com/sqs/" target="_blank"><span class="name-left link-underline link-w2b">AWS-SQS</span></a><span class="value-right"><img src="images/tech/aws-sqs.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:85%"></div>
                         </div>
@@ -800,21 +814,21 @@
 
                     <!-- sentry -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://sentry.io/" target="_blank"><span class="name-left link-underline link-w2b">Sentry</span></a><span class="value-right"><img src="images/tech/sentry.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://sentry.io/" target="_blank"><span class="name-left link-underline link-w2b">Sentry</span></a><span class="value-right"><img src="images/tech/sentry.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:100%"></div>
                         </div>
                     </div>
                     <!-- uptimerobot -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://uptimerobot.com/" target="_blank"><span class="name-left link-underline link-w2b">UptimeRobot</span></a><span class="value-right"><img src="images/tech/uptimerobot-icon-nobg.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://uptimerobot.com/" target="_blank"><span class="name-left link-underline link-w2b">UptimeRobot</span></a><span class="value-right"><img src="images/tech/uptimerobot-icon-nobg.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:100%"></div>
                         </div>
                     </div>
                     <!-- snyk -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://snyk.io/" target="_blank"><span class="name-left link-underline link-w2b">Snyk</span></a><span class="value-right"><img src="images/tech/snyk.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://snyk.io/" target="_blank"><span class="name-left link-underline link-w2b">Snyk</span></a><span class="value-right"><img src="images/tech/snyk.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:100%"></div>
                         </div>
@@ -827,9 +841,9 @@
 
                      <!-- git -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://git-scm.com" target="_blank" class=""><span class="name-left link-underline link-w2b">Git</span></a>
+                        <h3 class="prev2"><a href="https://git-scm.com" target="_blank" class=""><span class="name-left link-underline link-w2b">Git</span></a>
                             <span class="value-right">
-                                <img src="images/skills-git.png" class="icons-skills">
+                                <img src="images/skills-git.png" class="icons-skills" alt="">
                             </span>
                         </h3>
                         <div class="progress">
@@ -838,14 +852,14 @@
                     </div>
                     <!-- pytest -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://pytest.org/" target="_blank"><span class="name-left link-underline link-w2b">Pytest</span></a><span class="value-right"><img src="images/skills-pytest.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://pytest.org/" target="_blank"><span class="name-left link-underline link-w2b">Pytest</span></a><span class="value-right"><img src="images/skills-pytest.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
                         </div>
                     </div>
                     <!-- kubernetes -->
                     <!-- <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://kubernetes.io/" target="_blank"><span class="name-left link-underline link-w2b">Kubernetes</span></a><span class="label label-primary" style="background-color:rgba(255,0,255, 1); margin-left:5px; font-size:65%;">new
+                        <h3 class="prev2"><a href="https://kubernetes.io/" target="_blank"><span class="name-left link-underline link-w2b">Kubernetes</span></a><span class="label label-primary" style="background-color:rgba(255,0,255, 1); margin-left:5px; font-size:65%;">new
                             </span><span class="value-right"><img src="images/tech-kubernetes.png" alt="docker-compose" class="icons-skills"></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%"></div>
@@ -853,30 +867,30 @@
                     </div> -->
                     <!-- docker -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.docker.com/" target="_blank"><span class="name-left link-underline link-w2b">Docker Products</span></a><span class="value-right"><img src="images/tech-dockercompose.png" alt="docker-compose" class="icons-skills"><img src="images/tech-docker.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.docker.com/" target="_blank"><span class="name-left link-underline link-w2b">Docker Products</span></a><span class="value-right"><img src="images/tech-dockercompose.png" alt="docker-compose" class="icons-skills"><img src="images/tech-docker.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:89%"></div>
                         </div>
                     </div>
                     <!-- travis CI -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://travis-ci.org/" target="_blank"><span class="name-left link-underline link-w2b">TravisCI</span></a><span class="value-right"><img src="images/tech-travisci-berta.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://travis-ci.org/" target="_blank"><span class="name-left link-underline link-w2b">TravisCI</span></a><span class="value-right"><img src="images/tech-travisci-berta.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
                         </div>
                     </div>
                     <!-- gitlab CI -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://about.gitlab.com/" target="_blank"><span class="name-left link-underline link-w2b">Gitlab & CI</span></a><span class="value-right"><img src="images/tech-gitlab.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://about.gitlab.com/" target="_blank"><span class="name-left link-underline link-w2b">Gitlab & CI</span></a><span class="value-right"><img src="images/tech-gitlab.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:90%"></div>
                         </div>
                     </div>
                     <!-- github -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.github.com" target="_blank" class=""><span class="name-left link-underline link-w2b">Github</span></a>
+                        <h3 class="prev2"><a href="https://www.github.com" target="_blank" class=""><span class="name-left link-underline link-w2b">Github</span></a>
                             <span class="value-right">
-                                <img src="images/skills-github.png" class="icons-skills">
+                                <img src="images/skills-github.png" class="icons-skills" alt="">
                             </span>
                         </h3>
                         <div class="progress">
@@ -885,14 +899,14 @@
                     </div>
                     <!-- amazon aws -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://aws.amazon.com/" target="_blank" class=""> <span class="name-left link-underline link-w2b">Amazon AWS</span></a><span class="value-right"><img src="images/skills-aws.jpg" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://aws.amazon.com/" target="_blank" class=""> <span class="name-left link-underline link-w2b">Amazon AWS</span></a><span class="value-right"><img src="images/skills-aws.jpg" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:75%"></div>
                         </div>
                     </div>
                     <!-- heroku -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.heroku.com/" target="_blank" class=""> <span class="name-left link-underline link-w2b">Heroku</span></a><span class="value-right"><img src="images/skills-heroku.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.heroku.com/" target="_blank" class=""> <span class="name-left link-underline link-w2b">Heroku</span></a><span class="value-right"><img src="images/skills-heroku.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:90%"></div>
                         </div>
@@ -905,43 +919,43 @@
 
                     <!-- Yolo -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://pjreddie.com/darknet/yolo/" target="_blank" class=""> <span class="name-left link-underline link-w2b">Yolo</span></a><span class="value-right"><img src="images/tech-yolo.png"
-                                    class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://pjreddie.com/darknet/yolo/" target="_blank" class=""> <span class="name-left link-underline link-w2b">Yolo</span></a><span class="value-right"><img src="images/tech-yolo.png"
+                                    class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:65%"></div>
                         </div>
                     </div>
                     <!-- pandas -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://pandas.pydata.org/" target="_blank"><span class="name-left link-underline link-w2b">Pandas</span></a><span class="value-right"><img src="images/skills-pandas.jpeg" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://pandas.pydata.org/" target="_blank"><span class="name-left link-underline link-w2b">Pandas</span></a><span class="value-right"><img src="images/skills-pandas.jpeg" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:75%"></div>
                         </div>
                     </div>
                     <!-- matplotlib -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://matplotlib.org/" target="_blank"><span class="name-left link-underline link-w2b">Matplotlib</span></a><span class="value-right"><img src="images/tech/tech-matplotlib.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://matplotlib.org/" target="_blank"><span class="name-left link-underline link-w2b">Matplotlib</span></a><span class="value-right"><img src="images/tech/tech-matplotlib.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:75%"></div>
                         </div>
                     </div>
                     <!-- OpenCV -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://opencv.org/" target="_blank" class=""> <span class="name-left link-underline link-w2b">OpenCV</span></a><span class="value-right"><img src="images/tech-opencv.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://opencv.org/" target="_blank" class=""> <span class="name-left link-underline link-w2b">OpenCV</span></a><span class="value-right"><img src="images/tech-opencv.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
                         </div>
                     </div>
                     <!-- numpy -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://numpy.org/" target="_blank" class=""> <span class="name-left link-underline link-w2b">Numpy</span></a><span class="value-right"><img src="images/tech-numpy.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://numpy.org/" target="_blank" class=""> <span class="name-left link-underline link-w2b">Numpy</span></a><span class="value-right"><img src="images/tech-numpy.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:60%"></div>
                         </div>
                     </div>
                      <!-- scikit-learn -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://scikit-learn.org/stable/" target="_blank"><span class="name-left link-underline link-w2b">Scikit-learn</span></a><span class="value-right"><img src="images/tech-scikitlearn.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://scikit-learn.org/stable/" target="_blank"><span class="name-left link-underline link-w2b">Scikit-learn</span></a><span class="value-right"><img src="images/tech-scikitlearn.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:30%"></div>
                         </div>
@@ -951,8 +965,8 @@
                     <div><h2 class="soft-skills-category">EMBEDDED</h2></div>
                     <!-- microcontrollers -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://en.wikipedia.org/wiki/Embedded_system" target="_blank" class=""><span class="name-left link-underline link-w2b">Micro-Controllers</span></a>
-                            <span class="value-right"><a href="https://en.wikipedia.org/wiki/Microcontroller" target="_blank"><img src="images/skills-pic.png" class="icons-skills"></a></span>
+                        <h3 class="prev2"><a href="https://en.wikipedia.org/wiki/Embedded_system" target="_blank" class=""><span class="name-left link-underline link-w2b">Micro-Controllers</span></a>
+                            <span class="value-right"><a href="https://en.wikipedia.org/wiki/Microcontroller" target="_blank"><img src="images/skills-pic.png" class="icons-skills" alt=""></a></span>
                         </h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:85%"></div>
@@ -960,8 +974,8 @@
                     </div>
                     <!-- micropython -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://en.wikipedia.org/wiki/Embedded_system" target="_blank" class=""><span class="name-left link-underline link-w2b">Micro-Python</span></a>
-                            <span class="value-right"><a href="http://www.micropython.org" target="_blank"><img src="images/skills-micropython.png" class="icons-skills"></a></span>
+                        <h3 class="prev2"><a href="https://en.wikipedia.org/wiki/Embedded_system" target="_blank" class=""><span class="name-left link-underline link-w2b">Micro-Python</span></a>
+                            <span class="value-right"><a href="http://www.micropython.org" target="_blank"><img src="images/skills-micropython.png" class="icons-skills" alt=""></a></span>
                         </h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:65%"></div>
@@ -969,8 +983,8 @@
                     </div>
                     <!-- raspberrypi -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://en.wikipedia.org/wiki/Embedded_system" target="_blank" class=""><span class="name-left link-underline link-w2b">RaspberryPi</span></a>
-                            <span class="value-right"><a href="https://www.raspberrypi.org/" target="_blank"><img src="images/skills-rpi.png" class="icons-skills"></a></span>
+                        <h3 class="prev2"><a href="https://en.wikipedia.org/wiki/Embedded_system" target="_blank" class=""><span class="name-left link-underline link-w2b">RaspberryPi</span></a>
+                            <span class="value-right"><a href="https://www.raspberrypi.org/" target="_blank"><img src="images/skills-rpi.png" class="icons-skills" alt=""></a></span>
                         </h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:85%"></div>
@@ -990,19 +1004,19 @@
                         <h2 class="soft-skills-category">PHOTOVOLTAIC</h2>
                     </div>
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.valentin-software.com/en" target="_blank" class=""> <span class="name-left link-underline link-w2b">PV Sol</span></a><span class="value-right"><img src="images/skills-pvsol.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.valentin-software.com/en" target="_blank" class=""> <span class="name-left link-underline link-w2b">PV Sol</span></a><span class="value-right"><img src="images/skills-pvsol.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
                         </div>
                     </div>
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="http://www.pvsyst.com/en/" target="_blank" class=""> <span class="name-left link-underline link-w2b">PV Syst</span></a><span class="value-right"><img src="images/skills-pvsyst.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="http://www.pvsyst.com/en/" target="_blank" class=""> <span class="name-left link-underline link-w2b">PV Syst</span></a><span class="value-right"><img src="images/skills-pvsyst.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:95%"></div>
                         </div>
                     </div>
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="http://www.meteonorm.com/" target="_blank" class=""> <span class="name-left link-underline link-w2b">Meteonorm</span></a><span class="value-right"><img src="images/skills-meteonorm-w.svg" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="http://www.meteonorm.com/" target="_blank" class=""> <span class="name-left link-underline link-w2b">Meteonorm</span></a><span class="value-right"><img src="images/skills-meteonorm-w.svg" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:95%"></div>
                         </div>
@@ -1014,22 +1028,22 @@
                         <h2 class="soft-skills-category">DESIGN</h2>
                     </div>
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.autodesk.com/products/autocad-lt/overview" target="_blank" class=""> <span class="name-left link-underline link-w2b">AutoCad</span></a><span class="value-right"><img src="images/skills-autocad.png"
-                                    class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.autodesk.com/products/autocad-lt/overview" target="_blank" class=""> <span class="name-left link-underline link-w2b">AutoCad</span></a><span class="value-right"><img src="images/skills-autocad.png"
+                                    class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:60%"></div>
                         </div>
                     </div>
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.adobe.com/la/products/xd.html" target="_blank" class=""> <span class="name-left link-underline link-w2b">Adobe XD</span></a><span class="value-right"><img src="images/skills-adobe-xd.png"
-                                    class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.adobe.com/la/products/xd.html" target="_blank" class=""> <span class="name-left link-underline link-w2b">Adobe XD</span></a><span class="value-right"><img src="images/skills-adobe-xd.png"
+                                    class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:65%"></div>
                         </div>
                     </div>
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.adobe.com/la/products/illustrator.html" target="_blank" class=""> <span class="name-left link-underline link-w2b">Adobe Illustrator</span></a><span class="value-right"><img src="images/skills-adobe-illustrator.png"
-                                    class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.adobe.com/la/products/illustrator.html" target="_blank" class=""> <span class="name-left link-underline link-w2b">Adobe Illustrator</span></a><span class="value-right"><img src="images/skills-adobe-illustrator.png"
+                                    class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:90%"></div>
                         </div>
@@ -1041,20 +1055,20 @@
                         <h2 class="soft-skills-category">3D</h2>
                     </div>
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" class=""> <span class="name-left link-underline link-w2b">Fusion 360</span></a><span class="value-right"><img src="images/skills-fusion360.png"
-                                    class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" class=""> <span class="name-left link-underline link-w2b">Fusion 360</span></a><span class="value-right"><img src="images/skills-fusion360.png"
+                                    class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:35%"></div>
                         </div>
                     </div>
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.chaosgroup.com/" target="_blank" class=""> <span class="name-left link-underline link-w2b">V-ray</span></a><span class="value-right"><img src="images/skills-vray.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.chaosgroup.com/" target="_blank" class=""> <span class="name-left link-underline link-w2b">V-ray</span></a><span class="value-right"><img src="images/skills-vray.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:40%"></div>
                         </div>
                     </div>
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.sketchup.com/" target="_blank" class=""> <span class="name-left link-underline link-w2b">SketchUp</span></a><span class="value-right"><img src="images/skills-sketchup.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.sketchup.com/" target="_blank" class=""> <span class="name-left link-underline link-w2b">SketchUp</span></a><span class="value-right"><img src="images/skills-sketchup.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div>
                         </div>
@@ -1065,27 +1079,27 @@
                         <h2 class="soft-skills-category">OTHER</h2>
                     </div>
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.ableton.com/" target="_blank" class=""> <span class="name-left link-underline link-w2b">Ableton Live</span></a><span class="value-right"><img src="images/skills-ableton3.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.ableton.com/" target="_blank" class=""> <span class="name-left link-underline link-w2b">Ableton Live</span></a><span class="value-right"><img src="images/skills-ableton3.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
                         </div>
                     </div>
                     <!-- packet tracer -->
                     <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.netacad.com/courses/packet-tracer-download" target="_blank" class=""> <span class="name-left link-underline link-w2b">Packet Tracer</span></a><span class="value-right"><img src="images/skills-cisco.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.netacad.com/courses/packet-tracer-download" target="_blank" class=""> <span class="name-left link-underline link-w2b">Packet Tracer</span></a><span class="value-right"><img src="images/skills-cisco.png" class="icons-skills" alt=""></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:60%"></div>
                         </div>
                     </div>
                     <!-- <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://www.office.com" target="_blank" class=""> <span class="name-left link-underline link-w2b">Ms Office</span></a><span class="value-right"><img src="images/skills-office.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://www.office.com" target="_blank" class=""> <span class="name-left link-underline link-w2b">Ms Office</span></a><span class="value-right"><img src="images/skills-office.png" class="icons-skills"></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:95%"></div>
                         </div>
                     </div> -->
                     <!-- atlasian jira software -->
                     <!-- <div class="progress-wrap">
-                        <h3 id="prev2"><a href="https://es.atlassian.com/software/jira" target="_blank"><span class="name-left link-underline link-w2b">Jira</span></a><span class="value-right"><img src="images/skills-jira.png" class="icons-skills"></span></h3>
+                        <h3 class="prev2"><a href="https://es.atlassian.com/software/jira" target="_blank"><span class="name-left link-underline link-w2b">Jira</span></a><span class="value-right"><img src="images/skills-jira.png" class="icons-skills"></span></h3>
                         <div class="progress">
                             <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:65%"></div>
                         </div>
@@ -1119,13 +1133,15 @@
                         <li class="timeline-unverted animate-box">
                             <div class="timeline-badge"><i class="icon-suitcase"></i></div>
                             <div class="timeline-panel">
-                                <div class="timeline-heading" id="">
+                                
+                                <div class="timeline-heading prev2">
                                     <h3 class="timeline-title">Python Developer</h3>
-                                    <a class="link-all link-underline">
-                                        <span class="company">Freelancer</span>
+                                    <a href="https://www.fantaso.de/" target="_blank" class="link-all link-underline">
+                                        <span class="company">Fantaso</span>
                                     </a>
                                     <p><small><small>Jan 2019 - Now</small></small></p>
                                 </div>
+                                
                                 <div class="timeline-body resume-skills-wrap-r">
                                     <p>I work as a contractor/freelancer and Fantaso is the concept of those services I offer.</p>
                                     <br>
@@ -1154,7 +1170,7 @@
                             <div class="timeline-badge"><i class="icon-suitcase"></i></div>
                             <div class="timeline-panel">
 
-                                <div class="timeline-heading" id="prev2">
+                                <div class="timeline-heading prev2">
                                     <h3 class="timeline-title">Backend Engineer</h3>
                                     <a href="https://www.abovesurveying.com/ucair/" target="_blank" class="link-all link-underline">
                                         <span class="company">Ucair GmbH</span>
@@ -1186,23 +1202,23 @@
                                     <!-- softwares and tools -->
                                     <div class="resume-skills-l">Skills Used</div>
                                         <p class="resume-skills-list-links-l">
-                                            <a href="https://www.djangoproject.com/" target="_blank"><img src="images/tech-django.png" class="icons-skills"></a>
-                                            <a href="https://www.django-rest-framework.org/" target="_blank"><img src="images/tech-django-rest-extension.png" class="icons-skills"></a>
-                                            <a href="https://django-q.readthedocs.io/en/latest/" target="_blank"><img src="images/tech/django-q.png" class="icons-skills"></a>
-                                            <a href="http://flask.pocoo.org/" target="_blank"><img src="images/skills-flask.png" class="icons-skills"></a>
-                                            <a href="https://github.com/coleifer/huey" target="_blank"><img src="images/tech-huey.png" class="icons-skills"></a>
-                                            <a href="https://www.postgresql.org/" target="_blank"><img src="images/tech-postgresql.png" class="icons-skills"></a>
-                                            <a href="https://github.com/edelvalle/carbon14" target="_blank"><img src="images/tech-graphql.png" class="icons-skills"></a>
-                                            <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"><img src="images/skills-html5.png" class="icons-skills"></a>
-                                            <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"><img src="images/skills-css3.png" class="icons-skills"></a>
-                                            <a href="https://pjreddie.com/darknet/yolo/" target="_blank"><img src="images/tech-yolo.png" class="icons-skills"></a>
-                                            <a href="https://opencv.org/" target="_blank"><img src="images/tech-opencv.png" class="icons-skills"></a>
-                                            <a href="https://numpy.org/" target="_blank"><img src="images/tech-numpy.png" class="icons-skills"></a>
-                                            <a href="https://matplotlib.org/" target="_blank"><img src="images/tech/tech-matplotlib.png" class="icons-skills"></a>
-                                            <a href="https://git-scm.com/" target="_blank"><img src="images/skills-git.png" class="icons-skills"></a>
-                                            <a href="https://pytest.org/" target="_blank"><img src="images/skills-pytest.png" class="icons-skills"></a>
-                                            <a href="https://aws.amazon.com/" target="_blank"><img src="images/skills-aws.jpg" class="icons-skills"></a>
-                                            <a href="https://gitlab.com" target="_blank"><img src="images/tech-gitlab.png" class="icons-skills"></a>
+                                            <a href="https://www.djangoproject.com/" target="_blank"><img src="images/tech-django.png" class="icons-skills" alt=""></a>
+                                            <a href="https://www.django-rest-framework.org/" target="_blank"><img src="images/tech-django-rest-extension.png" class="icons-skills" alt=""></a>
+                                            <a href="https://django-q.readthedocs.io/en/latest/" target="_blank"><img src="images/tech/django-q.png" class="icons-skills" alt=""></a>
+                                            <a href="http://flask.pocoo.org/" target="_blank"><img src="images/skills-flask.png" class="icons-skills" alt=""></a>
+                                            <a href="https://github.com/coleifer/huey" target="_blank"><img src="images/tech-huey.png" class="icons-skills" alt=""></a>
+                                            <a href="https://www.postgresql.org/" target="_blank"><img src="images/tech-postgresql.png" class="icons-skills" alt=""></a>
+                                            <a href="https://github.com/edelvalle/carbon14" target="_blank"><img src="images/tech-graphql.png" class="icons-skills" alt=""></a>
+                                            <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"><img src="images/skills-html5.png" class="icons-skills" alt=""></a>
+                                            <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"><img src="images/skills-css3.png" class="icons-skills" alt=""></a>
+                                            <a href="https://pjreddie.com/darknet/yolo/" target="_blank"><img src="images/tech-yolo.png" class="icons-skills" alt=""></a>
+                                            <a href="https://opencv.org/" target="_blank"><img src="images/tech-opencv.png" class="icons-skills" alt=""></a>
+                                            <a href="https://numpy.org/" target="_blank"><img src="images/tech-numpy.png" class="icons-skills" alt=""></a>
+                                            <a href="https://matplotlib.org/" target="_blank"><img src="images/tech/tech-matplotlib.png" class="icons-skills" alt=""></a>
+                                            <a href="https://git-scm.com/" target="_blank"><img src="images/skills-git.png" class="icons-skills" alt=""></a>
+                                            <a href="https://pytest.org/" target="_blank"><img src="images/skills-pytest.png" class="icons-skills" alt=""></a>
+                                            <a href="https://aws.amazon.com/" target="_blank"><img src="images/skills-aws.jpg" class="icons-skills" alt=""></a>
+                                            <a href="https://gitlab.com" target="_blank"><img src="images/tech-gitlab.png" class="icons-skills" alt=""></a>
                                         </p>
                                 </div>
                             </div>
@@ -1211,7 +1227,7 @@
                         <li class="timeline-unverted animate-box">
                             <div class="timeline-badge"><i class="icon-suitcase"></i></div>
                             <div class="timeline-panel">
-                                <div class="timeline-heading" id="prev2">
+                                <div class="timeline-heading prev2">
                                     <h3 class="timeline-title">CTO - Co-Founder<br>(Python Developer & Electronic Engineer)</h3>
                                     <a href="https://www.solar-vibes.com" target="_blank" class="link-all link-underline">
                                         <span class="company">Solarvibes</span>
@@ -1230,34 +1246,34 @@
                                     <!-- softwares and tools -->
                                     <div class="resume-skills-r">Skills Used</div>
                                     <p class="resume-skills-list-links-r">
-                                        <a href="https://www.python.org" target="_blank"><img src="images/skills-python.png" class="icons-skills"></a>
-                                        <a href="http://flask.pocoo.org/" target="_blank"><img src="images/skills-flask.png" class="icons-skills"></a>
-                                        <a href="https://www.postgresql.org/" target="_blank"><img src="images/tech-postgresql.png" class="icons-skills"></a>
-                                        <a href="https://aws.amazon.com/" target="_blank"><img src="images/skills-aws.jpg" class="icons-skills"></a>
-                                        <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"><img src="images/skills-html5.png" class="icons-skills"></a>
-                                        <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"><img src="images/skills-css3.png" class="icons-skills"></a>
-                                        <a href="https://www.javascript.com/" target="_blank"><img src="images/skills-javascript.png" class="icons-skills"></a>
-                                        <a href="https://git-scm.com/" target="_blank"><img src="images/skills-git.png" class="icons-skills"></a>
-                                        <a href="https://www.github.com" target="_blank"><img src="images/skills-github.png" class="icons-skills"></a>
-                                        <a href="https://www.adobe.com/la/products/xd.html" target="_blank"><img src="images/skills-adobe-xd.png" class="icons-skills"></a>
-                                        <a href="https://www.adobe.com/la/products/illustrator.html" target="_blank"><img src="images/skills-adobe-illustrator.png" class="icons-skills"></a>
-                                        <a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank"><img src="images/skills-fusion360.png" class="icons-skills"></a>
-                                        <a href="https://craftunique.com/craftware/" target="_blank"><img src="images/skills-craftware.png" class="icons-skills"></a>
-                                        <a href="https://www.raspberrypi.org/" target="_blank"><img src="images/skills-rpi.png" class="icons-skills"></a>
-                                        <a href="http://www.micropython.org" target="_blank"><img src="images/skills-micropython.png" class="icons-skills"></a>
+                                        <a href="https://www.python.org" target="_blank"><img src="images/skills-python.png" class="icons-skills" alt=""></a>
+                                        <a href="http://flask.pocoo.org/" target="_blank"><img src="images/skills-flask.png" class="icons-skills" alt=""></a>
+                                        <a href="https://www.postgresql.org/" target="_blank"><img src="images/tech-postgresql.png" class="icons-skills" alt=""></a>
+                                        <a href="https://aws.amazon.com/" target="_blank"><img src="images/skills-aws.jpg" class="icons-skills" alt=""></a>
+                                        <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"><img src="images/skills-html5.png" class="icons-skills" alt=""></a>
+                                        <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"><img src="images/skills-css3.png" class="icons-skills" alt=""></a>
+                                        <a href="https://www.javascript.com/" target="_blank"><img src="images/skills-javascript.png" class="icons-skills" alt=""></a>
+                                        <a href="https://git-scm.com/" target="_blank"><img src="images/skills-git.png" class="icons-skills" alt=""></a>
+                                        <a href="https://www.github.com" target="_blank"><img src="images/skills-github.png" class="icons-skills" alt=""></a>
+                                        <a href="https://www.adobe.com/la/products/xd.html" target="_blank"><img src="images/skills-adobe-xd.png" class="icons-skills" alt=""></a>
+                                        <a href="https://www.adobe.com/la/products/illustrator.html" target="_blank"><img src="images/skills-adobe-illustrator.png" class="icons-skills" alt=""></a>
+                                        <a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank"><img src="images/skills-fusion360.png" class="icons-skills" alt=""></a>
+                                        <a href="https://craftunique.com/craftware/" target="_blank"><img src="images/skills-craftware.png" class="icons-skills" alt=""></a>
+                                        <a href="https://www.raspberrypi.org/" target="_blank"><img src="images/skills-rpi.png" class="icons-skills" alt=""></a>
+                                        <a href="http://www.micropython.org" target="_blank"><img src="images/skills-micropython.png" class="icons-skills" alt=""></a>
                                     </p>
 
                                     <!-- webs, books, unys, partners -->
                                     <div class="resume-skills-r">Ecosystem</div>
                                     <p class="resume-skills-list-links-r">
-                                        <a href="http://katanaproject.eu/katana-top-10/solarvibes/" target="_blank"><img src="images/worked-katana.jpg" class="icons-skills"></a>
-                                        <a href="http://www.tu-berlin.de/" target="_blank"><img src="images/worked-tuberlin.png" class="icons-skills"></a>
-                                        <a href="https://www.uni-oldenburg.de/en/" target="_blank"><img src="images/worked-oldenburg.png" class="icons-skills"></a>
-                                        <a href="http://cube-global.com/" target="_blank"><img src="images/worked-cube.png" class="icons-skills"></a>
-                                        <a href="https://www.izm.fraunhofer.de/" target="_blank"><img src="images/worked-fraunhoferizm.png" class="icons-skills"></a>
-                                        <a href="https://fablab.berlin/en/" target="_blank"><img src="images/worked-fablab.png" class="icons-skills pic-round"></a>
-                                        <a href="https://factoryberlin.com/" target="_blank"><img src="images/worked-factoryberlin.jpg" class="icons-skills"></a>
-                                        <a href="http://www.startup-incubator.berlin/" target="_blank"><img src="images/worked-hwr.jpg" class="icons-skills"></a>
+                                        <a href="http://katanaproject.eu/katana-top-10/solarvibes/" target="_blank"><img src="images/worked-katana.jpg" class="icons-skills" alt=""></a>
+                                        <a href="http://www.tu-berlin.de/" target="_blank"><img src="images/worked-tuberlin.png" class="icons-skills" alt=""></a>
+                                        <a href="https://www.uni-oldenburg.de/en/" target="_blank"><img src="images/worked-oldenburg.png" class="icons-skills" alt=""></a>
+                                        <a href="http://cube-global.com/" target="_blank"><img src="images/worked-cube.png" class="icons-skills" alt=""></a>
+                                        <a href="https://www.izm.fraunhofer.de/" target="_blank"><img src="images/worked-fraunhoferizm.png" class="icons-skills" alt=""></a>
+                                        <a href="https://fablab.berlin/en/" target="_blank"><img src="images/worked-fablab.png" class="icons-skills pic-round" alt=""></a>
+                                        <a href="https://factoryberlin.com/" target="_blank"><img src="images/worked-factoryberlin.jpg" class="icons-skills" alt=""></a>
+                                        <a href="http://www.startup-incubator.berlin/" target="_blank"><img src="images/worked-hwr.jpg" class="icons-skills" alt=""></a>
                                     </p>
                                 </div>
                             </div>
@@ -1265,7 +1281,7 @@
                         <li class="animate-box timeline-inverted">
                             <div class="timeline-badge"><i class="icon-suitcase"></i></div>
                             <div class="timeline-panel">
-                                <div class="timeline-heading" id="prev2">
+                                <div class="timeline-heading prev2">
                                     <h3 class="timeline-title">Photovoltaic Engineer</h3>
                                     <a href="http://www.etsolutions.de/" target="_blank" class="link-all link-underline">
                                         <span class="company">ET Solutions AG</span>
@@ -1287,11 +1303,11 @@
                                     <!-- softwares and tools -->
                                     <div class="resume-skills-l">Skills Used</div>
                                     <p class="resume-skills-list-links-l">
-                                        <a href="https://www.autodesk.com/products/autocad-lt/overview" target="_blank"><img src="images/skills-autocad.png" class="icons-skills pic-shadow-squar"></a>
-                                        <a href="http://www.pvsyst.com/en" target="_blank"><img src="images/skills-pvsyst.png" class="icons-skills pic-shadow-squar"></a>
-                                        <a href="http://www.meteonorm.com" target="_blank"><img src="images/skills-meteonorm-w.svg" class="icons-skills pic-shadow-squar"></a>
-                                        <a href="https://www.office.com" target="_blank"><img src="images/skills-office.png" class="icons-skills pic-shadow-squar"></a>
-                                        <a href="https://www.adobe.com/la/products/illustrator.html" target="_blank"><img src="images/skills-adobe-illustrator.png" class="icons-skills pic-shadow-roun"></a>
+                                        <a href="https://www.autodesk.com/products/autocad-lt/overview" target="_blank"><img src="images/skills-autocad.png" class="icons-skills pic-shadow-squar" alt=""></a>
+                                        <a href="http://www.pvsyst.com/en" target="_blank"><img src="images/skills-pvsyst.png" class="icons-skills pic-shadow-squar" alt=""></a>
+                                        <a href="http://www.meteonorm.com" target="_blank"><img src="images/skills-meteonorm-w.svg" class="icons-skills pic-shadow-squar" alt=""></a>
+                                        <a href="https://www.office.com" target="_blank"><img src="images/skills-office.png" class="icons-skills pic-shadow-squar" alt=""></a>
+                                        <a href="https://www.adobe.com/la/products/illustrator.html" target="_blank"><img src="images/skills-adobe-illustrator.png" class="icons-skills pic-shadow-roun" alt=""></a>
                                     </p>
 
                                 </div>
@@ -1301,7 +1317,7 @@
 <!--                        <li class="timeline-unverted animate-box">-->
 <!--                            <div class="timeline-badge"><i class="icon-suitcase"></i></div>-->
 <!--                            <div class="timeline-panel">-->
-<!--                                <div class="timeline-heading" id="prev2">-->
+<!--                                <div class="timelin prev2e>-->
 <!--                                    <h3 class="timeline-title">Electronic Engineer</h3>-->
 <!--                                    <a href="https://www.instagram.com/toldosconcha/" target="_blank" class="link-all link-underline">-->
 <!--                                        <span class="company">Toldos Concha</span>-->
@@ -1343,7 +1359,7 @@
 <!--                        <li class="animate-box timeline-inverted">-->
 <!--                            <div class="timeline-badge"><i class="icon-suitcase"></i></div>-->
 <!--                            <div class="timeline-panel">-->
-<!--                                <div class="timeline-heading" id="prev2">-->
+<!--                                <div class="timelin prev2e>-->
 <!--                                    <h3 class="timeline-title">Electronic Engineer</h3>-->
 <!--                                    <a href="http://www.empresaspolar.com" target="_blank" class="link-all link-underline">-->
 <!--                                        <span class="company">Cervecería Polar</span>-->
@@ -1391,7 +1407,7 @@
 <!--                        <li class="timeline-unverted animate-box">-->
 <!--                            <div class="timeline-badge"><i class="icon-suitcase"></i></div>-->
 <!--                            <div class="timeline-panel">-->
-<!--                                <div class="timeline-heading" id="prev2">-->
+<!--                                <div class="timelin prev2e>-->
 <!--                                    <h3 class="timeline-title">Electronic Engineer</h3>-->
 <!--                                    <a href="http://www.pac.com.ve/busqueda/Fabrica_De_Embutidos_La_Meridena__C_A/Tabay_Merida" target="_blank" class="link-all link-underline">-->
 <!--                                        <span class="company">La Merideña</span>-->
@@ -1433,7 +1449,7 @@
 <!--                        <li class="animate-box timeline-inverted">-->
 <!--                            <div class="timeline-badge"><i class="icon-suitcase"></i></div>-->
 <!--                            <div class="timeline-panel">-->
-<!--                                <div class="timeline-heading" id="prev2">-->
+<!--                                <div class="timelin prev2e>-->
 <!--                                    <h3 class="timeline-title">Electronic Engineer</h3>-->
 <!--                                    <a href="http://www.empresaspolar.com" target="_blank" class="link-all link-underline">-->
 <!--                                        <span class="company">Cervecería Polar</span>-->
@@ -1490,14 +1506,14 @@
                         <li class="animate-box timeline-inverted">
                             <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
                             <div class="timeline-panel">
-                                <div class="timeline-heading" id="prev2">
+                                <div class="timeline-heading prev2">
                                     <h3 class="timeline-title">Msc. Solar Energy</h3>
                                     <a href="https://www.gpe.tu-berlin.de/index.php?id=77" target="_blank" class="link-all link-underline">
                                         <span class="company">TU-Berlin</span>
                                     </a>
                                     <p><small><small>2011 - 5 yr</small></small></p>
                                 </div>
-                                <div class="timeline-heading" id="prev2">
+                                <div class="timeline-heading prev2">
                                     <h3 class="timeline-title"></h3>
 
                                 </div>
@@ -1515,7 +1531,7 @@
                         <li class="timeline-unverted animate-box">
                             <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
                             <div class="timeline-panel">
-                                <div class="timeline-heading" id="prev2">
+                                <div class="timeline-heading prev2">
                                     <h3 class="timeline-title">Cisco CCNA</h3>
                                     <a href="http://ciscofermintoro.com/" target="_blank" class="link-all link-underline">
                                         <span class="company">Fermin Toro University<br></span>
@@ -1533,7 +1549,7 @@
                         <li class="animate-box timeline-inverted">
                             <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
                             <div class="timeline-panel">
-                                <div class="timeline-heading" id="prev2">
+                                <div class="timeline-heading prev2">
                                     <h3 class="timeline-title">Beng. Electronics</h3>
                                     <a href="http://www.uny.edu.ve/" target="_blank" class="link-all link-underline">
                                         <span class="company">Yacambu University</span>
@@ -1708,8 +1724,8 @@
 <!--                        <li><span class="first-block">Full Name:</span><span class="second-block">Carlos Rosas</span></li>-->
 <!--                        &lt;!&ndash; <li><span class="first-block">Phone:</span><span class="second-block">+49 (0)176 4764-5375</span></li> &ndash;&gt;-->
 <!--                        <li><span class="first-block">Email:</span><span class="second-block"><a href="mailto:fantaso.code@gmail.com" class="link-underline">fantaso.code@gmail.com</a></span></li>-->
-<!--                        <li><span class="first-block">Portfolio:</span><span class="second-block" id="prev2"><a href="https://fantaso.github.io" target="_blank" class="link-underline">fantaso.github.io</a></span></li>-->
-<!--                        &lt;!&ndash;<li><span class="first-block">Website:</span><span class="second-block" id="prev2"><a href="https://www.fantaso.de" target="_blank" class="link-underline">fantaso.de</a></span></li> &ndash;&gt;-->
+<!--                        <li><span class="first-block">Portfolio:</span><span class="second-block" class="prev2"><a href="https://fantaso.github.io" target="_blank" class="link-underline">fantaso.github.io</a></span></li>-->
+<!--                        &lt;!&ndash;<li><span class="first-block">Website:</span><span class="second-block" class="prev2"><a href="https://www.fantaso.de" target="_blank" class="link-underline">fantaso.de</a></span></li> &ndash;&gt;-->
 <!--                        <li><span class="first-block">Address:</span><span class="second-block">Berlin Germany</span></li>-->
 <!--                    </ul>-->
 <!--                </div>-->
@@ -1790,9 +1806,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <p id="prev2">2020 &copy; Carlos Rosas. All Lights Preserved!<br>Designed by <a href="https://freehtml5.co/p-preview/?item=profile-free-html5-bootstrap-template-for-personal-and-vcard,-resume-websites" target="_blank" class="link-underline">FreeHTML5.co</a>
+                <p class="prev2">
+                    2018-2020 &copy; Carlos Rosas. All Lights Preserved!
+                    <br>
+                    Designed by <a href="https://freehtml5.co/p-preview/?item=profile-free-html5-bootstrap-template-for-personal-and-vcard,-resume-websites" target="_blank" class="link-underline">FreeHTML5.co</a>
                     & edited by <a href="https://fantaso.github.io" target="_blank" class="link-underline">Fantaso.github.io</a></p>
-
             </div>
         </div>
     </div>
@@ -1822,9 +1840,9 @@
 <script src="js/jquery.easypiechart.min.js"></script>
 <!-- Google Map -->
 <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOIEqI_akVWODfAs30_KJrjjPKSce23nQ&callback=initMap" type="text/javascript"></script> -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOIEqI_akVWODfAs30_KJrjjPKSce23nQ&sensor=false"></script>
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOIEqI_akVWODfAs30_KJrjjPKSce23nQ&sensor=false"></script>-->
 <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script> -->
-<script src="js/google_map.js"></script>
+<!--<script src="js/google_map.js"></script>-->
 
 <!-- Main -->
 <script src="js/main.js"></script>
@@ -1841,7 +1859,7 @@
         $('#prev1 a').miniPreview({
             prefetch: 'pageload'
         });
-        $('#prev2 a').miniPreview({
+        $('.prev2 a').miniPreview({
             prefetch: 'parenthover'
         });
         $('#prev3 a').miniPreview({
